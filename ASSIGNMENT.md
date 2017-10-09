@@ -1,7 +1,7 @@
 # INF 554 Assignment 7
 
 ## Description 
-Create a presentation with [Sozi](http://sozi.baierouge.fr) to pitch your project to the class. Pitch the projects using the [PechaKucha](http://www.pechakucha.org) presentation format. PechaKucha is a simple presentation format where you show 20 images, each for 20 seconds. The images advance automatically and you talk along with the images. You cannot use bullet list in any of your slides. On the first slide, include the project title, your group, and your names. Export your presentation as `a7-groupname.pdf` and add it to the repository.
+Create a presentation with [Sozi](http://sozi.baierouge.fr) to pitch your project to the class. Pitch the projects using the [PechaKucha](http://www.pechakucha.org) presentation format. PechaKucha is a simple presentation format where you show 20 images, each for 20 seconds. The images advance automatically and you talk along with the images. You cannot use bullet list in any of your slides. On the first slide, include the project title, your group, and your names. Export your presentation as `a7-groupname.pdf` and add it to the repository. To use `sozi-export`, `pdfjam` is required, installation tutorial can be found [here](https://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/).
 
 __What to include in your project pitch?__ (in no particular order)
 
