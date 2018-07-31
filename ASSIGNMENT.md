@@ -1,7 +1,8 @@
-# INF 554 Assignment 7
+# INF 554 Assignment 5
 
-## Description 
-Create a presentation with [Sozi](http://sozi.baierouge.fr) to pitch your project to the class. Pitch the projects using the [PechaKucha](http://www.pechakucha.org) presentation format. PechaKucha is a simple presentation format where you show 20 images, each for 20 seconds. The images advance automatically and you talk along with the images. You cannot use bullet list in any of your slides. On the first slide, include the project title, your group, and your names. Export your presentation as `a7-groupname.pdf` and add it to the repository. To use `sozi-export`, `pdfjam` is required, installation tutorial can be found [here](https://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/).
+## Description
+
+Create a presentation with [Sozi](http://sozi.baierouge.fr) to pitch your project to the class. Pitch the projects in a format similar to the [PechaKucha](http://www.pechakucha.org) presentation format where you show 15 images, each for 20 seconds. The images advance automatically and you talk along with the images. You cannot use bullet list in any of your slides. The first slide is a cover slide that includes the project title, your group, and your names and emails (do not add a timer instead use it to manually start the presentation). Export your final presentation as `a5-<groupname>.pdf` and add it to the repository. To export use `sozi-export`: `pdfjam` is required, installation tutorial can be found [here](https://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/). Link the pdf in `README.md` and for each slide write your talking points (i.e., with subheaders for Slide 1, Slide 2, ... Slide 15).
 
 __What to include in your project pitch?__ (in no particular order)
 
@@ -22,21 +23,21 @@ __What to include in your project pitch?__ (in no particular order)
 - How do you work together?
 - What is your timeline?
 
-__GIT good practice__
+### GIT good practice
 
 To demonstrate good practice of GIT, do **not** commit your files to GIT after you are done with the whole presentation. Commit in a small chunk of work. For example, start with an outline and then commit, work on a few slides and then commit, make some changes and then commit, etc.
 
 ## Rubric
 
-| 	            | Presentation | Project Ideas | Development |
+|               | Presentation | Project Ideas | Development |
 | ------------- | ------------ | ------------- | ----------- |
-| Sophisticated	| Slides are in PechaKucha format made using Sozi, are well designed and presented (4-5 pts)| Project audiance, topic, originality, previous and related work, dataset, design, development plan are clearly presented and understood (4-5 pts) | Multiple commits show good use of GIT, slide automation works well, a PDF of the slides is provided (4-5 pts) |
-| Competent	    | Slides not completely in PechaKucha format, Sozi authoring may be improved, design and presentation could be improved (2-3 pts) | Project audiance, topic, originality, previous and related work, dataset, design, development not fully and clearly presented and understood (2-3 pts) | Use of GIT, slide automation, and PDF export could be improved (2-3 pts) |
-| Needs work	  | Slides not in correct PechaKucha format, not authored with Sozi, not well designed, not well presented (0-1 pts) | Project audiance, topic, originality, previous and related work, dataset, design, development not fully and clearly presented and understood (0-1 pts) | Unsatisfactory use of GIT , slide automation not implementd, PDF not provided (0-1 pts) |
+| Sophisticated | Slides are in PechaKucha format made using Sozi, are well designed and presented and well described in Readme.md (4-5 pts)| Project audiance, topic, originality, previous and related work, dataset, design, development plan are clearly presented and understood (4-5 pts) | Multiple commits show good use of GIT, slide automation works well, a PDF of the slides is provided (4-5 pts) |
+| Competent     | Slides not completely in PechaKucha format, Sozi authoring may be improved, design, presentation and/or description in Readme.md could be improved (2-3 pts) | Project audiance, topic, originality, previous and related work, dataset, design, development not fully and clearly presented and understood (2-3 pts) | Use of GIT, slide automation, and PDF export could be improved (2-3 pts) |
+| Needs work   | Slides not in correct PechaKucha format, not authored with Sozi, not well designed, not well designed, presented or described in Readme.md (0-1 pts) | Project audiance, topic, originality, previous and related work, dataset, design, development not fully and clearly presented and understood (0-1 pts) | Unsatisfactory use of GIT, slide automation not implementd, PDF not provided (0-1 pts) |
 
 ## Homework Guidelines
-- Homework repository must be updated before the start of next class
-- Commits after the submission deadline will not be considered unless requested
-- Late policy: 10% of total available points per each 24-hour late; duration less than 24 hours counts as one whole 24-hour
-- Homework is expected to work in: SAFARI AND CHROME (Mac), Edge AND CHROME (Windows)
 
+- Homework repository must be updated before the start of next class
+- Commits after the deadline will not be considered unless requested
+- Late policy: 10% of total available points per each late day; duration less than 24 hours counts as one whole day
+- Homework is expected to work in: SAFARI AND CHROME (Mac), EDGE AND CHROME (Windows)
