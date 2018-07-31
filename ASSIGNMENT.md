@@ -2,7 +2,7 @@
 
 ## Description
 
-Create a presentation with [Sozi](http://sozi.baierouge.fr) to pitch your project to the class. Pitch the projects in a format similar to the [PechaKucha](http://www.pechakucha.org) presentation format where you show 15 images, each for 20 seconds. The images advance automatically and you talk along with the images. You cannot use bullet list in any of your slides. The first slide is a cover slide that includes the project title, your group, and your names and emails (do not add a timer instead use it to manually start the presentation). Export your final presentation as `a5-<groupname>.pdf` and add it to the repository. To export use `sozi-export`: `pdfjam` is required, installation tutorial can be found [here](https://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/). Link the pdf in `README.md` and for each slide write your talking points (i.e., with subheaders for Slide 1, Slide 2, ... Slide 15).
+Create a presentation with [Sozi](http://sozi.baierouge.fr) to pitch your project to the class. Pitch the projects in a format similar to the [PechaKucha](http://www.pechakucha.org) presentation format where you show 15 images, each for 20 seconds. The images advance automatically and you talk along with the images. You cannot use bullet list in any of your slides. The first slide is a cover slide that includes the project title, your group, and your names and emails (do not add a timer instead use it to manually start the presentation). In `README.md` write for each slide your talking points as an itemized list (i.e., with subheaders for Slide 1, Slide 2, ... Slide 15).
 
 __What to include in your project pitch?__ (in no particular order)
 
