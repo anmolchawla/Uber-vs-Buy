@@ -23,9 +23,9 @@ __What to include in your project pitch?__ (in no particular order)
 - How do you work together?
 - What is your timeline?
 
-### GIT good practice
+### Git good practice
 
-To demonstrate good practice of GIT, do **not** commit your files to GIT after you are done with the whole presentation. Commit in a small chunk of work. For example, start with an outline and then commit, work on a few slides and then commit, make some changes and then commit, etc.
+To demonstrate good practice of Git, do **not** commit your files to Git after you are done with the whole presentation. Commit in a small chunk of work. For example, start with an outline and then commit, work on a few slides and then commit, make some changes and then commit, etc.
 
 ## Rubric
 
