@@ -2,14 +2,14 @@
 
 ## Description
 
-Create a presentation with [Sozi](http://sozi.baierouge.fr) to pitch your project to the class. Pitch the projects in a format similar to the [PechaKucha](http://www.pechakucha.org) presentation format where you show 15 images, each for 20 seconds. The images advance automatically and you talk along with the images. You cannot use bullet list in any of your slides. The first slide is a cover slide that includes the project title, your group, and your names and emails (do not add a timer instead use it to manually start the presentation). In `README.md` write for each slide your talking points as an itemized list (i.e., with subheaders for Slide 1, Slide 2, ... Slide 15).
+Create a presentation with [Sozi](http://sozi.baierouge.fr) to pitch your project to the class. Pitch the project in a format similar to the [PechaKucha](http://www.pechakucha.org) presentation format where you show 15 images, each for 20 seconds. The images advance automatically and you talk along with the images. You cannot use bullet list in any of your slides. The first slide is a cover slide that includes the project title, your group name, your names, and emails (do not add a timer; instead use the first slide to manually start the presentation). In `README.md`, write for each slide your talking points as an itemized list (i.e., with subheaders for Slide 1, Slide 2, ..., Slide 15).
 
 __What to include in your project pitch?__ (in no particular order)
 
 - Speak simply (use simple words and simple sentence construct)
 - Lead with 10 words on why you chose this project
 - Why is your project interesting?
-- Who is the audience?
+- Who is the audience for your project?
 - Why is your visualization important?
 - How is your visualization useful?
 - What are you telling with your visualization? What is the story?
@@ -25,7 +25,7 @@ __What to include in your project pitch?__ (in no particular order)
 
 ### Git good practice
 
-To demonstrate good practice of Git, do **not** commit your files to Git after you are done with the whole presentation. Commit in a small chunk of work. For example, start with an outline and then commit, work on a few slides and then commit, make some changes and then commit, etc.
+To demonstrate good practice of Git, do **not** commit your files to Git after you are done with the whole presentation. Commit in small chunks of work. For example, start with an outline and then commit, work on a few slides and then commit, make some changes and then commit, etc.
 
 ## Rubric
 
@@ -40,4 +40,4 @@ To demonstrate good practice of Git, do **not** commit your files to Git after y
 - Homework repository must be updated before the start of next class
 - Commits after the deadline will not be considered unless requested
 - Late policy: 10% of total available points per each late day; duration less than 24 hours counts as one whole day
-- Homework is expected to work in: SAFARI AND CHROME (Mac), EDGE AND CHROME (Windows)
+- Homework is expected to work in: Safari AND Chrome (Mac), Edge AND Chrome (Windows), Firefox AND Chrome (Linux)
