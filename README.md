@@ -3,6 +3,7 @@
 ## Team Info
 
 Team Name: Hattrick
+
 Team Members: Anmol Chawla (anmolcha@usc.edu), David Goodfellown(dgoodfel@usc.edu), Chukwudubem Nwoji (nwoji@usc.edu)
 
 ## To Run Sozi.html
