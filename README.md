@@ -1,11 +1,11 @@
 # INF 554 Assignment for 5
 
-Slide 1. Introduction
+## Slide 1. Introduction
 
 - In our project, we aim to help visualize the car market and, based on your car of choice, whether it is better for you to buy your car or use ride services
 - "Buy vs. Uber"
 
-Slide 2. Overview
+## Slide 2. Overview
 
 - The car market has been going through a fundamental shift with the disruption of shared economy services like Uber and Lyft as well as with EVs. 
 - This project will do two things. 
@@ -13,59 +13,59 @@ Slide 2. Overview
   - Two, based on your average daily commute and car you expect to buy, it will do a comparison to help you decide whether it would be better for you to uber instead of owning a car. 
 - Our inspiration came from the famous "Buy vs. Rent" visualization from the New York Times for a home
 
-Slide 3. Audience
+## Slide 3. Audience
 
 - The first audience are those who are debating whether to buy a car but are unsure about what kind of car to buy, or if to buy anyone at all considering Uber/Lyft. 
 - Our second audience are those just generally interested in the automobile market trends. 
 
-Slide 4. Data Sources
+## Slide 4. Data Sources
 
-- Our car sales data will come from carsalebase.com. This provides monthly information for sales for car brands, car types, and by model.
-- Our fuel efficiency data will come from fueleconomy.gov
-- The Uber prices will come via the Uber API
+- Our car sales data will come from (carsalesbase.com)[http://carsalesbase.com/]. This provides monthly information for sales for car brands, car types, and by model.
+- Our fuel efficiency data will come from (fueleconomy.gov)[https://www.fueleconomy.gov/]
+- The Uber prices will come via the (Uber API)[https://developer.uber.com/]
 
-Slide 5. Market Exploration Aspect
+## Slide 5. Market Exploration Aspect
 
 - Many visualizations exist for the car market but they are often not fully integrated across the market
 - Some will focus on sales per brand, some will focus on gas mileage, and others will focus on the rise of EVs
 - We aim to bring these different aspects together in our visualizations to allow the user to fully explore the market and gain insight into trends and specific information
 
-Slide 6. Buy vs. Uber Aspect
+## Slide 6. Buy vs. Uber Aspect
 
 - The "Rent vs. Buy" in the NYT allowed the users to interactively choose a variety of parameters including how long they plan to live in the house and the house price
 - This helped users gain more personalized action from the data
 - We plan to employ similar features to allow users to choose how long they expect to own the car and other factors
 -The visualization for the NYT also showed a breakdown of the expected cost which we plan to use as well for servicing and gas estimates.
 
-Slide 7. Use & Importance
+## Slide 7. Use & Importance
 
 - It allows users to drill down to a deep level in exploring the automobile market on multiple different facets, including but not limited to EV/Gas, Mileage, Model, Brand, & Type.
 - Moreover, it helps the user decide whether to buy a car or just to Uber. This makes it actionable.
 
-Slide 8. Interactive Visuals
+## Slide 8. Interactive Visuals
 
 - For market exploration, drill down functionality will be the biggest interactive feature. We will employ this on both our novel and familiar visuals.
 - For the Uber vs Buy question, dragging features will be used to interact and personalize for the user.
 
-Slide 9. Design Considerations "Uber vs. Buy"
+## Slide 9. Design Considerations "Uber vs. Buy"
 
 - We need to be especially conscious of how we break up our information. We have two separate data components: the automobile market information and the uber ride data. We want to make sure they don't cause the user to be confused in the interface. We would like them to be able to use the app intuitively. 
 - To do this we need keep them fairly isolated from one another in the presentation to the user
 - For the uber design, we want to make sure the model is explanable. This means that we have the breakdowns listed on the side and keep the visualizations familiar.
 
-Slide 10. Design Considerations "Car Market"
+## Slide 10. Design Considerations "Car Market"
 
 - For the car market, many familiar visualizations are already in existence. We do not want to sacrifice the benefits of familarity, but we also want to couple these with more unique visualizations which could generate new insights for the user.
 - However, including both of these can be confusing for the user, so we want to be careful in how we lay out our visualizations and make it intuitive for the user to navigate.
 
-Slide 11. Competition
+## Slide 11. Competition
 
 - Many of the data sources we use are not competition to us because they are isolated in a smaller aspect of our overall goal.
   - I.e. Uber and its API for pricing, gas mileage ratings in order to sell a car
 - There is an application that goes into whether you should own a vehicle or not. However, our advantage to the user over them is that their application makes the user input a bunch of small variable information that they themselves need to gather. 
 - In short, it is not car specific where we can extrapolate this information automatically for them.
 
-Slide 12. Deliverables
+## Slide 12. Deliverables
 
 - Our deliverables are broken up into 5 subgroups
 - Subgroup A: Data preprocessing. This means merging certain information together in a singular DB and cleaning the data.
@@ -74,7 +74,7 @@ Slide 12. Deliverables
 - Subgroup D: Buy vs. Uber visualizations with breakdown of costs & savings.
 - Subgroup E: Colation/Finishing touches. Creating the CSS, the presentation youtube video, and hosting the application.
 
-Slide 13. Tech Stack
+## Slide 13. Tech Stack
 
 - D3
 - JavaScript
@@ -83,7 +83,7 @@ Slide 13. Tech Stack
 - Node
 - HTML & CSS
 
-Slide 14. Timeline
+## Slide 14. Timeline
 
 - the timeline in the sozi presentation provides good depth but below is a synopsis
 - September 26th: Present to class
@@ -94,7 +94,7 @@ Slide 14. Timeline
 - November 21st: Colation Completed
 - November 28th: Project Submitted
 
-Slide 15. Team & Thank You
+## Slide 15. Team & Thank You
 
 - We will meet every week on Mondays. We will go for at least a 4 hour time period and break up work for the remaining week.
 - Thank you!
