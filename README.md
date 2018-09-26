@@ -1,5 +1,10 @@
 # INF 554 Assignment for 5
 
+## Team Info
+
+Team Name: Hattrick
+Team Members: Anmol Chawla (anmolcha@usc.edu), David Goodfellown(dgoodfel@usc.edu), Chukwudubem Nwoji (nwoji@usc.edu)
+
 ## To Run Sozi.html
 
 1. Clone the repository
@@ -110,6 +115,5 @@
 - We will meet every week on Mondays. We will go for at least a 4 hour time period and break up work for the remaining week.
 - Thank you!
 
-Team Name: Hattrick
-Team Members: Anmol Chawla (anmolcha@usc.edu), David Goodfellown(dgoodfel@usc.edu), Chukwudubem Nwoji (nwoji@usc.edu)
+
 
