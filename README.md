@@ -1,64 +1,102 @@
 # INF 554 Assignment for 5
 
-Update this README as needed.
+Slide 1. Introduction
 
-1. Lead with 10 words on why you chose this project 
+- In our project, we aim to help visualize the car market and, based on your car of choice, whether it is better for you to buy your car or use ride services
+- "Buy vs. Uber"
 
-Buy a car versus Uber is the new Rent versus Buy
+Slide 2. Overview
 
-2. Why is your project interesting?
+- The car market has been going through a fundamental shift with the disruption of shared economy services like Uber and Lyft as well as with EVs. 
+- This project will do two things. 
+  - One, explore the changes in car sales due to this (filters by brand, car type, gas mileage, and expected yearly cost). This will help the user gain a stronger grasp on current market trends.
+  - Two, based on your average daily commute and car you expect to buy, it will do a comparison to help you decide whether it would be better for you to uber instead of owning a car. 
+- Our inspiration came from the famous "Buy vs. Rent" visualization from the New York Times for a home
 
-The car market has been going through a fundamental shift with the disruption of shared economy services like Uber and Lyft as well as with EVs. This project will do two things. One, explore the changes in car sales due to this (filters by brand, car type, gas mileage, and expected yearly cost). Two, based on your average daily commute and car you expect to buy, it will do a comparison to help you decide whether it would be better for you to uber instead of owning a car. 
+Slide 3. Audience
 
-3. Who is the audience for your project?
+- The first audience are those who are debating whether to buy a car but are unsure about what kind of car to buy, or if to buy anyone at all considering Uber/Lyft. 
+- Our second audience are those just generally interested in the automobile market trends. 
 
-Our project has two audiences. One, those who are debating whether to buy a car but are unsure about what kind of car to buy, or if to buy anyone at all considering Uber/Lyft. Two, those just generally interested in the automobile market trends. 
+Slide 4. Data Sources
 
-4. Why is your visualization important?
+- Our car sales data will come from carsalebase.com. This provides monthly information for sales for car brands, car types, and by model.
+- Our fuel efficiency data will come from fueleconomy.gov
+- The Uber prices will come via the Uber API
 
-It allows users to drill down to a deep level in exploring the automobile market. Moreover, it helps the user decide whether to buy a car or Uber/Lyft.
+Slide 5. Market Exploration Aspect
 
-5. How is your visualization useful?
+- Many visualizations exist for the car market but they are often not fully integrated across the market
+- Some will focus on sales per brand, some will focus on gas mileage, and others will focus on the rise of EVs
+- We aim to bring these different aspects together in our visualizations to allow the user to fully explore the market and gain insight into trends and specific information
 
-It has broad implications for both exploratory and serious users. 
+Slide 6. Buy vs. Uber Aspect
 
-6. What are you telling with your visualization? What is the story?
+- The "Rent vs. Buy" in the NYT allowed the users to interactively choose a variety of parameters including how long they plan to live in the house and the house price
+- This helped users gain more personalized action from the data
+- We plan to employ similar features to allow users to choose how long they expect to own the car and other factors
+-The visualization for the NYT also showed a breakdown of the expected cost which we plan to use as well for servicing and gas estimates.
 
-The story is to first explore the automobile market in general. What kind of cars are selling at a faster pace? (i.e. EV cars, high mileage cars, etc.) It then bases your daily commute to see if buying the car of choice is better than ubering to your destination and a rough estimate of the savings either way.
+Slide 7. Use & Importance
 
-7. How do you plan to use interactive visuals?
+- It allows users to drill down to a deep level in exploring the automobile market on multiple different facets, including but not limited to EV/Gas, Mileage, Model, Brand, & Type.
+- Moreover, it helps the user decide whether to buy a car or just to Uber. This makes it actionable.
 
-Drill down functionality for the car market in general. After a selection it will move you to a different screen to enter your local information to compute the uber prices that you can expect. 
+Slide 8. Interactive Visuals
 
-8. What are your design considerations?
+- For market exploration, drill down functionality will be the biggest interactive feature. We will employ this on both our novel and familiar visuals.
+- For the Uber vs Buy question, dragging features will be used to interact and personalize for the user.
 
-We need to be especially conscious of how we break up our information. We have two separate data components: the automobile market information and the uber ride data. We want to make sure they don't cause the user to be confused in the interface. We would like them to be able to use the app intuitively. 
+Slide 9. Design Considerations "Uber vs. Buy"
 
-9. What are the components that make your visualization cool?
+- We need to be especially conscious of how we break up our information. We have two separate data components: the automobile market information and the uber ride data. We want to make sure they don't cause the user to be confused in the interface. We would like them to be able to use the app intuitively. 
+- To do this we need keep them fairly isolated from one another in the presentation to the user
+- For the uber design, we want to make sure the model is explanable. This means that we have the breakdowns listed on the side and keep the visualizations familiar.
 
-The drill down abilties and the added functionality to compare to uber prices makes the visualization cool. 
+Slide 10. Design Considerations "Car Market"
 
-10. How does your visualization compare to what others have done?
+- For the car market, many familiar visualizations are already in existence. We do not want to sacrifice the benefits of familarity, but we also want to couple these with more unique visualizations which could generate new insights for the user.
+- However, including both of these can be confusing for the user, so we want to be careful in how we lay out our visualizations and make it intuitive for the user to navigate.
 
-11. What are the technologies you plan to use?
+Slide 11. Competition
 
-D3, Uber API, JavaScript
+- Many of the data sources we use are not competition to us because they are isolated in a smaller aspect of our overall goal.
+  - I.e. Uber and its API for pricing, gas mileage ratings in order to sell a car
+- There is an application that goes into whether you should own a vehicle or not. However, our advantage to the user over them is that their application makes the user input a bunch of small variable information that they themselves need to gather. 
+- In short, it is not car specific where we can extrapolate this information automatically for them.
 
-12. How are you going to design, build, and evaluate?
+Slide 12. Deliverables
 
+- Our deliverables are broken up into 5 subgroups
+- Subgroup A: Data preprocessing. This means merging certain information together in a singular DB and cleaning the data.
+- Subgroup B: Car Market Visualizations. Use this data to create both the familiar and novel visualizations.
+- Subgroup C: Uber API Integration. 
+- Subgroup D: Buy vs. Uber visualizations with breakdown of costs & savings.
+- Subgroup E: Colation/Finishing touches. Creating the CSS, the presentation youtube video, and hosting the application.
 
+Slide 13. Tech Stack
 
-13. What are your deliverables?
+- D3
+- JavaScript
+- Python for pre-processing
+- Uber API
+- Node
+- HTML & CSS
 
-Merge databases and integrate fields
-Data preprocessing
-Visualize general trends for the car industry with drill-down
-Develop uber comparison functionality
-Add visualizations around the buy vs. uber decision
+Slide 14. Timeline
 
-14. How do you work together?
+- the timeline in the sozi presentation provides good depth but below is a synopsis
+- September 26th: Present to class
+- October 3rd: Have the database completed (gathered, extracted, & combined)
+- October 17th: Car Visualizations Complete
+- October 31st: Uber REST API integration complete
+- November 14th: Uber vs. Buy visualizations complete
+- November 21st: Colation Completed
+- November 28th: Project Submitted
 
-We will meet every week on Mondays. We will go for at least a 4 hour time period and break up work for the remaining week.
+Slide 15. Team & Thank You
 
-15. What is your timeline?
+- We will meet every week on Mondays. We will go for at least a 4 hour time period and break up work for the remaining week.
+- Thank you!
+
 
