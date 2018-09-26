@@ -1,5 +1,16 @@
 # INF 554 Assignment for 5
 
+## To Run Sozi.html
+
+1. Clone the repository
+2. Ensure you are running node.js by downloading it and moving it to your working directory. https://nodejs.org/en/download/
+3. Make sure it is correctly installed by running 'node --help'. It is properly installed if the usage documentation is shown.
+4. To test, have a real time synced page through installing and activated Browsersync through Node's Package Manager (NPM). 'npm install browser-sync -g'
+5. Activate browsersync in your working directory. 'browser-sync start --server'
+6. go to the url: http://localhost:3000/554Proposal.sozi.html
+
+## Slide Details
+
 #### Slide 1. Introduction
 
 - In our project, we aim to help visualize the car market and, based on your car of choice, whether it is better for you to buy your car or use ride services
