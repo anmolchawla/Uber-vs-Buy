@@ -1,0 +1,15 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with ImageBot - http://www.imagebot.com/ -->
+ <defs>
+  <linearGradient id="imagebot_80" y2="1">
+   <stop offset="0" stop-color="#e92d28"/>
+   <stop offset="1" stop-color="#6d0018"/>
+  </linearGradient>
+ </defs>
+ <g id="imagebot_1">
+  <title>Layer 1</title>
+  <circle id="imagebot_82" r="0" cy="146" cx="268" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" stroke="#000000" fill="url(#imagebot_80)"/>
+  <line transform="translate(63 -2) translate(-64 25)" id="imagebot_88" y2="271" x2="184" y1="79" x1="463" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="25.5" stroke="#ff0000" fill="none"/>
+  <line transform="rotate(250.772 321.5 199) matrix(1 0 0 1 -2 24)" id="imagebot_89" y2="271" x2="184" y1="79" x1="463" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="25.5" stroke="#ff0000" fill="none"/>
+ </g>
+</svg>
