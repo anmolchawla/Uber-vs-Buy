@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="../node_modules/d3/dist/d3.min.js"></script>
+
+    <style type="text/css">
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges; }
+
+        .axis text {
+            font-family: Courier;
+            font-size: 12px; }
+
+        text.label {
+            text-anchor: middle;
+            alignment-baseline: central; }
+
+        #temp:hover,
+        #grav:hover,
+        #dist:hover {
+            text-decoration: overline; }
+
+        #temp, #grav, #dist {
+            background-color: whitesmoke; }
+
+        p { 
+            text-align: center;
+            font-size: 32px; }
+
+        svg {
+            display: block;
+            margin: auto;
+            background-color: mistyrose; }
+    </style>
+</head>
+
+<body>
+    <p>Order by: <span id="dist">distance to sun</span> <span id="temp">temperature</span> <span id="grav">gravity</span></p>
+
+    <div id="chart"></div>
+
+    <script type="text/javascript">
+        var margin = { top: 20, left: 75, bottom: 50, right: 50 };
+        var width = 850 - margin.left - margin.right;
+        var height = 550 - margin.top - margin.bottom;
+
+        var svg = d3.select("#chart").append("svg")
+            .attr('width', width + margin.left + margin.right)
+            .attr('height', height + margin.top + margin.bottom)
+            .append('g')
+            .attr('transform', 'translate(' + margin.left + ', ' + margin.top + ')');
+
+        var x = d3.scaleBand();
+        var y = d3.scaleLinear();
+
+        var dataset, mode;
+        var xAxis;
+
+        d3.tsv("planets.tsv", function (d) {
+            return {
+                name: d.name,
+                gravity: +d.gravity,
+                temperature: +d.temperature,
+                distance: +d.distance,
+            };
+        }).then(function (data) {
+            dataset = data;
+            dataset.sort(function(a, b) { return d3.ascending(a.distance, b.distance); });
+            setMode("#dist");
+            drawBars();
+        });
+
+        //sort bars
+        d3.select("#dist")
+            .on("click", function () {
+                setMode("#dist");
+                x.domain(dataset.sort(
+                    function(a, b) { return d3.ascending(a.distance, b.distance); }
+                ).map(function (d) { return d.name; }));
+                transitionBars();
+            });
+
+        d3.select("#temp")
+            .on("click", function () {
+                setMode("#temp");
+                x.domain(dataset.sort(
+                    function(a, b) { return d3.ascending(a.temperature, b.temperature); }
+                ).map(function (d) { return d.name; }));
+                transitionBars();
+            });
+
+        d3.select("#grav")
+            .on("click", function () {
+                setMode("#grav");
+                x.domain(dataset.sort(
+                    function(a, b) { return d3.ascending(a.gravity, b.gravity); }
+                ).map(function (d) { return d.name; }));
+                transitionBars();
+            });
+
+        function transitionBars() {
+            var transition = svg.transition()
+                .duration(750);
+
+            var delay = function (d, i) {
+                return i * 50;
+            };
+
+            transition.selectAll("rect")
+                .delay(delay)
+                .attr("x", function (d) {
+                    return x(d.name);
+                });
+
+            transition.select("#x-axis")
+                .call(xAxis);
+        }
+
+        function setMode(id) {
+            d3.select("#grav").style("background-color", "whitesmoke");
+            d3.select("#dist").style("background-color", "whitesmoke");
+            d3.select("#temp").style("background-color", "whitesmoke");
+            d3.select(id).style("background-color", "lightblue");
+            mode = id;
+        }
+
+        function drawBars() {
+            x.domain(dataset.map(function (d) { return d.name; }))
+                .range([0, width])
+                .paddingInner(0.05);
+
+            y.domain([0, d3.max(dataset, function (d) { return d.gravity; })])
+                .range([height, 0]);
+
+            svg.selectAll("rect")
+                .data(dataset, function (d) { return d.name; })
+                .enter().append("rect")
+                .attr("class", "bar")
+                .attr("x", function (d) { return x(d.name); })
+                .attr("y", function (d) { return y(d.gravity); })
+                .attr("width", x.bandwidth())
+                .attr("height", function (d) { return height - y(d.gravity); });
+
+            xAxis = d3.axisBottom()
+                .scale(x);
+
+            svg.append("g")
+                .attr("id", "x-axis")
+                .attr("class", "axis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(xAxis);
+
+            var yAxis = d3.axisLeft()
+                .scale(y)
+                .ticks(5, 'd');
+
+            svg.append("g")
+                .attr("class", "axis")
+                .call(yAxis);
+
+            svg.append("text")
+                .attr("x", - height / 2)
+                .attr("y", - margin.left * 0.6)
+                .attr("transform", "rotate(-90)")
+                .attr('class', 'label')
+                .append("tspan").text("Gravity ms")
+                .append("tspan").text("-2")
+                .style("baseline-shift", "super")
+                .style("font-size", "0.7em");
+        }
+    </script>
+</body>
+</html>
