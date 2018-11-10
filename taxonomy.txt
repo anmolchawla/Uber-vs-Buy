@@ -6,14 +6,17 @@ TODO:
 -servicing
 -brand & model (versus just name)
 
+
+Pre-work:
+-script to break name into brand and model (split and set brand as index 0 then make 1-n the model)
+-script to add in the servicing attribute to the dataset based on price (function should have an increase if a premium car like 1.3x)
+
 Drill down abilities: Bar chart values (sales in 2017 or mpg/empg)
 Top - all cars by year
 Second - break by segment or by size
 Third - filter for premium or not
 
 Step 1: Visualize the car market
--script to break name into brand and model (split and set brand as index 0 then make 1-n the model)
--script to add in the servicing attribute to the dataset based on price (function should have an increase if a premium car like 1.3x)
 -Bar chart
 -Marimekko Chart 
 -waterfall chart (to show the differences between sales over time in cars)
