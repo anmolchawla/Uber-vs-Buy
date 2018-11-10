@@ -5,9 +5,10 @@
 TODO:
 -servicing
 -brand & model (versus just name)
-
+-price
 
 Pre-work:
+-enter price on each car
 -script to break name into brand and model (split and set brand as index 0 then make 1-n the model)
 -script to add in the servicing attribute to the dataset based on price (function should have an increase if a premium car like 1.3x)
 
@@ -16,24 +17,37 @@ Top - all cars by year
 Second - break by segment or by size
 Third - filter for premium or not
 
+*Have a part of the page that says what step you are on and what the step is for*
+
 Step 1: Visualize the car market
--Bar chart
--Marimekko Chart 
--waterfall chart (to show the differences between sales over time in cars)
--line chart
--slope graphs to compare trends between two years
--Coxcomb/pie chart
--treemap
--circle packing
+HIGH
+-Bar chart (column click drill down)
+-line chart (line click drill down)
+MED
+-treemap (sub square drill down)
+LOW
+-Coxcomb/pie chart (slice click drill down)
 
 Step 2: Make a car decision
--dendrogram that goes down
+INITIALLY: just a set of questions (later if time: dendrogram that goes down) 
+once car selected: ask amount of years expecting to keep the car
+HIGH:
+-waterfall & line (static)
+-number for mpg/empg
+-premium or electric showing so if so
 -once item selected store in memory and go to step 3
 
-Step 3: Uber comparison
+Step 3: Uber comparison 
 -prompt the user with information
 -show the user differences in ubers, select UberX per se
--make calculations and recommendation
 
-Step 4: Comparison
+[make calculations and recommendation]
+
+Step 4: Comparison [similar to NY times article]
 -allow user to drag for the # of miles per year up and down accordingly
+-expect the car longer or shorter
+
+Tasks:
+David - pre work, help step 1 visualizations, and step 4
+Anmol - framwork, step 2 cards, step 3
+Dubem - take lead on step 1 visualizations
