@@ -1,0 +1,36 @@
+-electric: true or false --> if true there will be an "empg" attribute which is the battery range
+-segment: car, suv, pickup, minivan
+-size: subcompact, compact, midsized, large
+-premium: true false
+TODO:
+-servicing
+-brand & model (versus just name)
+
+Drill down abilities: Bar chart values (sales in 2017 or mpg/empg)
+Top - all cars by year
+Second - break by segment or by size
+Third - filter for premium or not
+
+Step 1: Visualize the car market
+-script to break name into brand and model (split and set brand as index 0 then make 1-n the model)
+-script to add in the servicing attribute to the dataset based on price (function should have an increase if a premium car like 1.3x)
+-Bar chart
+-Marimekko Chart 
+-waterfall chart (to show the differences between sales over time in cars)
+-line chart
+-slope graphs to compare trends between two years
+-Coxcomb/pie chart
+-treemap
+-circle packing
+
+Step 2: Make a car decision
+-dendrogram that goes down
+-once item selected store in memory and go to step 3
+
+Step 3: Uber comparison
+-prompt the user with information
+-show the user differences in ubers, select UberX per se
+-make calculations and recommendation
+
+Step 4: Comparison
+-allow user to drag for the # of miles per year up and down accordingly
