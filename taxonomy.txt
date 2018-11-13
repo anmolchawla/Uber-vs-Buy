@@ -12,7 +12,7 @@ Pre-work:
 -script to break name into brand and model (split and set brand as index 0 then make 1-n the model)
 -script to add in the servicing attribute to the dataset based on price (function should have an increase if a premium car like 1.3x)
 
-Drill down abilities: Bar chart values (sales in 2017 or mpg/empg)
+Drill down abilities: Bar chart values (sales in 2017 or mpg/empg or price)
 Top - all cars by year
 Second - break by segment or by size
 Third - filter for premium or not
