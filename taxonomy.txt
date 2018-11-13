@@ -2,15 +2,14 @@
 -segment: car, suv, pickup, minivan
 -size: subcompact, compact, midsized, large
 -premium: true false
+
 TODO:
--servicing
--brand & model (versus just name)
 -price
 
 Pre-work:
--enter price on each car
--script to break name into brand and model (split and set brand as index 0 then make 1-n the model)
--script to add in the servicing attribute to the dataset based on price (function should have an increase if a premium car like 1.3x) (source; https://newsroom.aaa.com/tag/cost-to-own-a-vehicle/)
+-enter price on each car (source: Kelley Blue Book https://www.kbb.com/)
+-script to break name into brand and model (split and set brand as index 0 then make 1-n the model) DONE!
+-script to add in the servicing attribute to the dataset based on price (function should have an increase if a premium car like 1.3x) (source; https://newsroom.aaa.com/tag/cost-to-own-a-vehicle/) DONE!
 
 Drill down abilities: Bar chart values (sales in 2017 or mpg/empg or price)
 Top - all cars by year
