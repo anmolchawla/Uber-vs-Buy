@@ -10,7 +10,7 @@ TODO:
 Pre-work:
 -enter price on each car
 -script to break name into brand and model (split and set brand as index 0 then make 1-n the model)
--script to add in the servicing attribute to the dataset based on price (function should have an increase if a premium car like 1.3x)
+-script to add in the servicing attribute to the dataset based on price (function should have an increase if a premium car like 1.3x) (source; https://newsroom.aaa.com/tag/cost-to-own-a-vehicle/)
 
 Drill down abilities: Bar chart values (sales in 2017 or mpg/empg or price)
 Top - all cars by year
