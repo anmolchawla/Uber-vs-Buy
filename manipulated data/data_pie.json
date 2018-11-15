@@ -1,0 +1,1273 @@
+[
+    {
+    "id_category": "0",
+    "cost": "1483664",
+    "category": "Honda",
+    "categories": [
+        {
+            "cost": "377286",
+            "category": "Civic",
+            "id_category": "1"
+        },
+        {
+            "cost": "34749",
+            "category": "Ridgeline",
+            "id_category": "43"
+        },
+        {
+            "cost": "377895",
+            "category": "CR-V",
+            "id_category": "49"
+        },
+        {
+            "cost": "127279",
+            "category": "Pilot",
+            "id_category": "86"
+        },
+        {
+            "cost": "100307",
+            "category": "Odyssey",
+            "id_category": "177"
+        },
+        {
+            "cost": "94034",
+            "category": "HR-V",
+            "id_category": "216"
+        },
+        {
+            "cost": "322655",
+            "category": "Accord",
+            "id_category": "226"
+        },
+        {
+            "cost": "5",
+            "category": "Crosstour",
+            "id_category": "227"
+        },
+        {
+            "cost": "49454",
+            "category": "Fit",
+            "id_category": "239"
+        }
+    ]
+},{
+    "id_category": "2",
+    "cost": "2078518",
+    "category": "Toyota",
+    "categories": [
+        {
+            "cost": "308695",
+            "category": "Corolla",
+            "id_category": "3"
+        },
+        {
+            "cost": "108661",
+            "category": "Prius",
+            "id_category": "21"
+        },
+        {
+            "cost": "1838",
+            "category": "Mirai",
+            "id_category": "31"
+        },
+        {
+            "cost": "198124",
+            "category": "Tacoma",
+            "id_category": "42"
+        },
+        {
+            "cost": "407594",
+            "category": "RAV4",
+            "id_category": "48"
+        },
+        {
+            "cost": "4",
+            "category": "FJ Cruiser",
+            "id_category": "57"
+        },
+        {
+            "cost": "32583",
+            "category": "Avalon",
+            "id_category": "78"
+        },
+        {
+            "cost": "128296",
+            "category": "4Runner",
+            "id_category": "79"
+        },
+        {
+            "cost": "215775",
+            "category": "Highlander",
+            "id_category": "85"
+        },
+        {
+            "cost": "116285",
+            "category": "Tundra",
+            "id_category": "164"
+        },
+        {
+            "cost": "3100",
+            "category": "Land Cruiser",
+            "id_category": "166"
+        },
+        {
+            "cost": "12156",
+            "category": "Sequoia",
+            "id_category": "172"
+        },
+        {
+            "cost": "111489",
+            "category": "Sienna",
+            "id_category": "181"
+        },
+        {
+            "cost": "25755",
+            "category": "C-HR",
+            "id_category": "219"
+        },
+        {
+            "cost": "387081",
+            "category": "Camry",
+            "id_category": "234"
+        },
+        {
+            "cost": "14",
+            "category": "Venza",
+            "id_category": "235"
+        },
+        {
+            "cost": "8653",
+            "category": "Yaris",
+            "id_category": "244"
+        },
+        {
+            "cost": "12415",
+            "category": "Prius C",
+            "id_category": "246"
+        }
+    ]
+},{
+    "id_category": "4",
+    "cost": "1398397",
+    "category": "Nissan",
+    "categories": [
+        {
+            "cost": "218451",
+            "category": "Sentra",
+            "id_category": "5"
+        },
+        {
+            "cost": "11230",
+            "category": "Leaf",
+            "id_category": "28"
+        },
+        {
+            "cost": "74360",
+            "category": "Frontier",
+            "id_category": "41"
+        },
+        {
+            "cost": "1",
+            "category": "Xterra",
+            "id_category": "51"
+        },
+        {
+            "cost": "403465",
+            "category": "Rogue",
+            "id_category": "59"
+        },
+        {
+            "cost": "67627",
+            "category": "Maxima",
+            "id_category": "77"
+        },
+        {
+            "cost": "81065",
+            "category": "Pathfinder",
+            "id_category": "80"
+        },
+        {
+            "cost": "76732",
+            "category": "Murano",
+            "id_category": "88"
+        },
+        {
+            "cost": "52924",
+            "category": "Titan",
+            "id_category": "165"
+        },
+        {
+            "cost": "35667",
+            "category": "Armada",
+            "id_category": "173"
+        },
+        {
+            "cost": "4950",
+            "category": "Quest",
+            "id_category": "180"
+        },
+        {
+            "cost": "10157",
+            "category": "Juke",
+            "id_category": "212"
+        },
+        {
+            "cost": "254996",
+            "category": "Altima",
+            "id_category": "231"
+        },
+        {
+            "cost": "106772",
+            "category": "Versa",
+            "id_category": "243"
+        }
+    ]
+},{
+    "id_category": "6",
+    "cost": "667424",
+    "category": "Hyundai",
+    "categories": [
+        {
+            "cost": "198210",
+            "category": "Elantra",
+            "id_category": "7"
+        },
+        {
+            "cost": "11197",
+            "category": "Ioniq",
+            "id_category": "23"
+        },
+        {
+            "cost": "114735",
+            "category": "Tucson",
+            "id_category": "55"
+        },
+        {
+            "cost": "3060",
+            "category": "Azera",
+            "id_category": "75"
+        },
+        {
+            "cost": "133171",
+            "category": "Santa Fe",
+            "id_category": "84"
+        },
+        {
+            "cost": "79",
+            "category": "Genesis Sedan",
+            "id_category": "143"
+        },
+        {
+            "cost": "16214",
+            "category": "Genesis G80",
+            "id_category": "150"
+        },
+        {
+            "cost": "131803",
+            "category": "Sonata",
+            "id_category": "228"
+        },
+        {
+            "cost": "58955",
+            "category": "Accent",
+            "id_category": "241"
+        }
+    ]
+},{
+    "id_category": "8",
+    "cost": "1895348",
+    "category": "Chevrolet",
+    "categories": [
+        {
+            "cost": "184751",
+            "category": "Cruze",
+            "id_category": "9"
+        },
+        {
+            "cost": "23297",
+            "category": "Bolt",
+            "id_category": "26"
+        },
+        {
+            "cost": "20349",
+            "category": "Volt",
+            "id_category": "27"
+        },
+        {
+            "cost": "112996",
+            "category": "Colorado",
+            "id_category": "40"
+        },
+        {
+            "cost": "290458",
+            "category": "Equinox",
+            "id_category": "54"
+        },
+        {
+            "cost": "693",
+            "category": "Caprice",
+            "id_category": "68"
+        },
+        {
+            "cost": "75877",
+            "category": "Impala",
+            "id_category": "69"
+        },
+        {
+            "cost": "4055",
+            "category": "SS",
+            "id_category": "70"
+        },
+        {
+            "cost": "123506",
+            "category": "Traverse",
+            "id_category": "94"
+        },
+        {
+            "cost": "22589",
+            "category": "Spark",
+            "id_category": "101"
+        },
+        {
+            "cost": "585864",
+            "category": "Silverado",
+            "id_category": "161"
+        },
+        {
+            "cost": "56516",
+            "category": "Suburban",
+            "id_category": "168"
+        },
+        {
+            "cost": "98961",
+            "category": "Tahoe",
+            "id_category": "169"
+        },
+        {
+            "cost": "79289",
+            "category": "Trax",
+            "id_category": "214"
+        },
+        {
+            "cost": "185857",
+            "category": "Malibu",
+            "id_category": "222"
+        },
+        {
+            "cost": "30290",
+            "category": "Sonic",
+            "id_category": "238"
+        }
+    ]
+},{
+    "id_category": "10",
+    "cost": "2148559",
+    "category": "Ford",
+    "categories": [
+        {
+            "cost": "158385",
+            "category": "Focus",
+            "id_category": "11"
+        },
+        {
+            "cost": "308296",
+            "category": "Escape",
+            "id_category": "52"
+        },
+        {
+            "cost": "41236",
+            "category": "Taurus",
+            "id_category": "74"
+        },
+        {
+            "cost": "271131",
+            "category": "Explorer",
+            "id_category": "81"
+        },
+        {
+            "cost": "142603",
+            "category": "Edge",
+            "id_category": "90"
+        },
+        {
+            "cost": "22389",
+            "category": "Flex",
+            "id_category": "95"
+        },
+        {
+            "cost": "896764",
+            "category": "F-series",
+            "id_category": "162"
+        },
+        {
+            "cost": "51883",
+            "category": "Expedition",
+            "id_category": "171"
+        },
+        {
+            "cost": "209623",
+            "category": "Fusion",
+            "id_category": "225"
+        },
+        {
+            "cost": "46249",
+            "category": "Fiesta",
+            "id_category": "240"
+        }
+    ]
+},{
+    "id_category": "12",
+    "cost": "615607",
+    "category": "Kia",
+    "categories": [
+        {
+            "cost": "117596",
+            "category": "Forte",
+            "id_category": "13"
+        },
+        {
+            "cost": "27237",
+            "category": "Niro",
+            "id_category": "22"
+        },
+        {
+            "cost": "72824",
+            "category": "Sportage",
+            "id_category": "47"
+        },
+        {
+            "cost": "27237",
+            "category": "Niro",
+            "id_category": "66"
+        },
+        {
+            "cost": "7249",
+            "category": "Cadenza",
+            "id_category": "76"
+        },
+        {
+            "cost": "99684",
+            "category": "Sorento",
+            "id_category": "87"
+        },
+        {
+            "cost": "23815",
+            "category": "Sedona",
+            "id_category": "178"
+        },
+        {
+            "cost": "107493",
+            "category": "Optima",
+            "id_category": "229"
+        },
+        {
+            "cost": "115712",
+            "category": "Soul",
+            "id_category": "242"
+        },
+        {
+            "cost": "16760",
+            "category": "Rio",
+            "id_category": "245"
+        }
+    ]
+},{
+    "id_category": "14",
+    "cost": "278176",
+    "category": "Mazda",
+    "categories": [
+        {
+            "cost": "75018",
+            "category": "Mazda3",
+            "id_category": "15"
+        },
+        {
+            "cost": "127563",
+            "category": "CX-5",
+            "id_category": "64"
+        },
+        {
+            "cost": "25828",
+            "category": "CX-9",
+            "id_category": "93"
+        },
+        {
+            "cost": "10",
+            "category": "Mazda5",
+            "id_category": "179"
+        },
+        {
+            "cost": "16355",
+            "category": "CX-3",
+            "id_category": "218"
+        },
+        {
+            "cost": "33402",
+            "category": "Mazda6",
+            "id_category": "230"
+        }
+    ]
+},{
+    "id_category": "16",
+    "cost": "729868",
+    "category": "Subaru",
+    "categories": [
+        {
+            "cost": "203444",
+            "category": "Impreza",
+            "id_category": "17"
+        },
+        {
+            "cost": "177563",
+            "category": "Forester",
+            "id_category": "50"
+        },
+        {
+            "cost": "110138",
+            "category": "Crosstrek",
+            "id_category": "65"
+        },
+        {
+            "cost": "49837",
+            "category": "Legacy",
+            "id_category": "232"
+        },
+        {
+            "cost": "188886",
+            "category": "Outback",
+            "id_category": "233"
+        }
+    ]
+},{
+    "id_category": "18",
+    "cost": "184785",
+    "category": "Volkswagon",
+    "categories": [
+        {
+            "cost": "115807",
+            "category": "Jetta",
+            "id_category": "19"
+        },
+        {
+            "cost": "68978",
+            "category": "Golf",
+            "id_category": "20"
+        }
+    ]
+},{
+    "id_category": "24",
+    "cost": "15166",
+    "category": "Volkwagon",
+    "categories": [
+        {
+            "cost": "15166",
+            "category": "Beetle",
+            "id_category": "25"
+        }
+    ]
+},{
+    "id_category": "29",
+    "cost": "103680",
+    "category": "Mitsubishi",
+    "categories": [
+        {
+            "cost": "12725",
+            "category": "Lancer",
+            "id_category": "30"
+        },
+        {
+            "cost": "35409",
+            "category": "Outlander",
+            "id_category": "53"
+        },
+        {
+            "cost": "22386",
+            "category": "Mirage",
+            "id_category": "98"
+        },
+        {
+            "cost": "33160",
+            "category": "Outlander Sport",
+            "id_category": "220"
+        }
+    ]
+},{
+    "id_category": "32",
+    "cost": "882595",
+    "category": "Dodge",
+    "categories": [
+        {
+            "cost": "10082",
+            "category": "Dart",
+            "id_category": "33"
+        },
+        {
+            "cost": "89470",
+            "category": "Journey",
+            "id_category": "60"
+        },
+        {
+            "cost": "88351",
+            "category": "Charger",
+            "id_category": "73"
+        },
+        {
+            "cost": "68761",
+            "category": "Durango",
+            "id_category": "83"
+        },
+        {
+            "cost": "500723",
+            "category": "Ram Pickup",
+            "id_category": "160"
+        },
+        {
+            "cost": "125196",
+            "category": "Grand Caravan",
+            "id_category": "176"
+        },
+        {
+            "cost": "12",
+            "category": "Avenger",
+            "id_category": "224"
+        }
+    ]
+},{
+    "id_category": "34",
+    "cost": "213636",
+    "category": "Buick",
+    "categories": [
+        {
+            "cost": "4277",
+            "category": "Verano",
+            "id_category": "35"
+        },
+        {
+            "cost": "20161",
+            "category": "LaCrosse",
+            "id_category": "67"
+        },
+        {
+            "cost": "48564",
+            "category": "Enclave",
+            "id_category": "92"
+        },
+        {
+            "cost": "41040",
+            "category": "Envision",
+            "id_category": "96"
+        },
+        {
+            "cost": "88035",
+            "category": "Encore",
+            "id_category": "213"
+        },
+        {
+            "cost": "11559",
+            "category": "Regal",
+            "id_category": "221"
+        }
+    ]
+},{
+    "id_category": "36",
+    "cost": "181908",
+    "category": "Mercedes-Benz",
+    "categories": [
+        {
+            "cost": "744",
+            "category": "B-Class",
+            "id_category": "37"
+        },
+        {
+            "cost": "20669",
+            "category": "CLA",
+            "id_category": "115"
+        },
+        {
+            "cost": "24104",
+            "category": "GLA",
+            "id_category": "120"
+        },
+        {
+            "cost": "49427",
+            "category": "E-Class",
+            "id_category": "128"
+        },
+        {
+            "cost": "1885",
+            "category": "CLS-class",
+            "id_category": "142"
+        },
+        {
+            "cost": "4188",
+            "category": "G-class",
+            "id_category": "156"
+        },
+        {
+            "cost": "32248",
+            "category": "GLS-class",
+            "id_category": "159"
+        },
+        {
+            "cost": "48643",
+            "category": "GLC-class",
+            "id_category": "188"
+        },
+        {
+            "cost": "0",
+            "category": "C-class",
+            "id_category": "197"
+        }
+    ]
+},{
+    "id_category": "38",
+    "cost": "531008",
+    "category": "GMC",
+    "categories": [
+        {
+            "cost": "32106",
+            "category": "Canyon",
+            "id_category": "39"
+        },
+        {
+            "cost": "85441",
+            "category": "Terrain",
+            "id_category": "63"
+        },
+        {
+            "cost": "111276",
+            "category": "Acadia",
+            "id_category": "91"
+        },
+        {
+            "cost": "217943",
+            "category": "Sierra",
+            "id_category": "163"
+        },
+        {
+            "cost": "49183",
+            "category": "Yukon",
+            "id_category": "167"
+        },
+        {
+            "cost": "35059",
+            "category": "Yukon XL",
+            "id_category": "170"
+        }
+    ]
+},{
+    "id_category": "44",
+    "cost": "828522",
+    "category": "Jeep",
+    "categories": [
+        {
+            "cost": "169882",
+            "category": "Cherokee",
+            "id_category": "45"
+        },
+        {
+            "cost": "190522",
+            "category": "Wrangler",
+            "id_category": "46"
+        },
+        {
+            "cost": "83253",
+            "category": "Compass",
+            "id_category": "56"
+        },
+        {
+            "cost": "40735",
+            "category": "Patriot",
+            "id_category": "58"
+        },
+        {
+            "cost": "240696",
+            "category": "Grand Cherokee",
+            "id_category": "82"
+        },
+        {
+            "cost": "103434",
+            "category": "Renegade",
+            "id_category": "217"
+        }
+    ]
+},{
+    "id_category": "61",
+    "cost": "118701",
+    "category": "Volkswagen",
+    "categories": [
+        {
+            "cost": "25960",
+            "category": "Tiguan",
+            "id_category": "62"
+        },
+        {
+            "cost": "3545",
+            "category": "Touareg",
+            "id_category": "89"
+        },
+        {
+            "cost": "27119",
+            "category": "Atlas",
+            "id_category": "97"
+        },
+        {
+            "cost": "1355",
+            "category": "CC",
+            "id_category": "236"
+        },
+        {
+            "cost": "60722",
+            "category": "Passat",
+            "id_category": "237"
+        }
+    ]
+},{
+    "id_category": "71",
+    "cost": "188545",
+    "category": "Chrysler",
+    "categories": [
+        {
+            "cost": "51237",
+            "category": "300",
+            "id_category": "72"
+        },
+        {
+            "cost": "118274",
+            "category": "Pacifica",
+            "id_category": "174"
+        },
+        {
+            "cost": "577",
+            "category": "Town & Country",
+            "id_category": "175"
+        },
+        {
+            "cost": "18457",
+            "category": "200",
+            "id_category": "223"
+        }
+    ]
+},{
+    "id_category": "99",
+    "cost": "54841",
+    "category": "Mini",
+    "categories": [
+        {
+            "cost": "47102",
+            "category": "Cooper",
+            "id_category": "100"
+        },
+        {
+            "cost": "7739",
+            "category": "Clubman",
+            "id_category": "108"
+        }
+    ]
+},{
+    "id_category": "102",
+    "cost": "34157",
+    "category": "Fiat",
+    "categories": [
+        {
+            "cost": "26492",
+            "category": "500",
+            "id_category": "103"
+        },
+        {
+            "cost": "7665",
+            "category": "500X",
+            "id_category": "215"
+        }
+    ]
+},{
+    "id_category": "104",
+    "cost": "3071",
+    "category": "Smart",
+    "categories": [
+        {
+            "cost": "3071",
+            "category": "Car",
+            "id_category": "105"
+        }
+    ]
+},{
+    "id_category": "106",
+    "cost": "126237",
+    "category": "Audi",
+    "categories": [
+        {
+            "cost": "23610",
+            "category": "A3",
+            "id_category": "107"
+        },
+        {
+            "cost": "20633",
+            "category": "Q3",
+            "id_category": "121"
+        },
+        {
+            "cost": "16304",
+            "category": "A6",
+            "id_category": "134"
+        },
+        {
+            "cost": "4810",
+            "category": "A7",
+            "id_category": "144"
+        },
+        {
+            "cost": "57640",
+            "category": "Q5",
+            "id_category": "187"
+        },
+        {
+            "cost": "3240",
+            "category": "A4 Allroad",
+            "id_category": "190"
+        },
+        {
+            "cost": "0",
+            "category": "A4",
+            "id_category": "199"
+        },
+        {
+            "cost": "0",
+            "category": "A5",
+            "id_category": "204"
+        }
+    ]
+},{
+    "id_category": "109",
+    "cost": "129206",
+    "category": "Lexus",
+    "categories": [
+        {
+            "cost": "4690",
+            "category": "CT",
+            "id_category": "110"
+        },
+        {
+            "cost": "51398",
+            "category": "ES",
+            "id_category": "132"
+        },
+        {
+            "cost": "7773",
+            "category": "GS",
+            "id_category": "133"
+        },
+        {
+            "cost": "6004",
+            "category": "LX",
+            "id_category": "153"
+        },
+        {
+            "cost": "59341",
+            "category": "NX",
+            "id_category": "192"
+        },
+        {
+            "cost": "0",
+            "category": "IS",
+            "id_category": "200"
+        },
+        {
+            "cost": "0",
+            "category": "RC",
+            "id_category": "210"
+        }
+    ]
+},{
+    "id_category": "111",
+    "cost": "64289",
+    "category": "Acura",
+    "categories": [
+        {
+            "cost": "11757",
+            "category": "ILX",
+            "id_category": "112"
+        },
+        {
+            "cost": "1237",
+            "category": "RLX",
+            "id_category": "135"
+        },
+        {
+            "cost": "51295",
+            "category": "RDX",
+            "id_category": "185"
+        },
+        {
+            "cost": "0",
+            "category": "TLX",
+            "id_category": "198"
+        }
+    ]
+},{
+    "id_category": "113",
+    "cost": "132798",
+    "category": "Cadillac",
+    "categories": [
+        {
+            "cost": "17",
+            "category": "ELR",
+            "id_category": "114"
+        },
+        {
+            "cost": "10344",
+            "category": "CTS",
+            "id_category": "141"
+        },
+        {
+            "cost": "16275",
+            "category": "XTS",
+            "id_category": "145"
+        },
+        {
+            "cost": "22994",
+            "category": "Escalade",
+            "id_category": "155"
+        },
+        {
+            "cost": "14700",
+            "category": "Escalade ESV",
+            "id_category": "157"
+        },
+        {
+            "cost": "68468",
+            "category": "XT5",
+            "id_category": "183"
+        },
+        {
+            "cost": "0",
+            "category": "ATS",
+            "id_category": "207"
+        }
+    ]
+},{
+    "id_category": "116",
+    "cost": "138741",
+    "category": "BMW",
+    "categories": [
+        {
+            "cost": "11737",
+            "category": "2-series",
+            "id_category": "117"
+        },
+        {
+            "cost": "6276",
+            "category": "i3",
+            "id_category": "118"
+        },
+        {
+            "cost": "30826",
+            "category": "X1",
+            "id_category": "119"
+        },
+        {
+            "cost": "40658",
+            "category": "5-series",
+            "id_category": "126"
+        },
+        {
+            "cost": "3355",
+            "category": "6-series",
+            "id_category": "127"
+        },
+        {
+            "cost": "40691",
+            "category": "X3",
+            "id_category": "184"
+        },
+        {
+            "cost": "5198",
+            "category": "X4",
+            "id_category": "191"
+        },
+        {
+            "cost": "0",
+            "category": "3-series",
+            "id_category": "208"
+        },
+        {
+            "cost": "0",
+            "category": "4-series",
+            "id_category": "209"
+        }
+    ]
+},{
+    "id_category": "122",
+    "cost": "54603",
+    "category": "Infiniti",
+    "categories": [
+        {
+            "cost": "14093",
+            "category": "QX30",
+            "id_category": "123"
+        },
+        {
+            "cost": "5772",
+            "category": "Q70",
+            "id_category": "131"
+        },
+        {
+            "cost": "17881",
+            "category": "QX80",
+            "id_category": "158"
+        },
+        {
+            "cost": "16857",
+            "category": "QX50",
+            "id_category": "186"
+        },
+        {
+            "cost": "0",
+            "category": "Q50",
+            "id_category": "205"
+        },
+        {
+            "cost": "0",
+            "category": "Q60",
+            "id_category": "206"
+        }
+    ]
+},{
+    "id_category": "124",
+    "cost": "43035",
+    "category": "Land Rover",
+    "categories": [
+        {
+            "cost": "11979",
+            "category": "Range Rover Evoque",
+            "id_category": "125"
+        },
+        {
+            "cost": "16869",
+            "category": "Range Rover",
+            "id_category": "152"
+        },
+        {
+            "cost": "14187",
+            "category": "Discovery Sport",
+            "id_category": "182"
+        }
+    ]
+},{
+    "id_category": "129",
+    "cost": "49736",
+    "category": "Lincoln",
+    "categories": [
+        {
+            "cost": "12165",
+            "category": "Continental",
+            "id_category": "130"
+        },
+        {
+            "cost": "10523",
+            "category": "Navigator",
+            "id_category": "154"
+        },
+        {
+            "cost": "27048",
+            "category": "MKC",
+            "id_category": "193"
+        },
+        {
+            "cost": "0",
+            "category": "MKZ",
+            "id_category": "203"
+        }
+    ]
+},{
+    "id_category": "136",
+    "cost": "31420",
+    "category": "Volvo",
+    "categories": [
+        {
+            "cost": "80",
+            "category": "70/80 series",
+            "id_category": "137"
+        },
+        {
+            "cost": "8641",
+            "category": "S90",
+            "id_category": "138"
+        },
+        {
+            "cost": "183",
+            "category": "V90",
+            "id_category": "151"
+        },
+        {
+            "cost": "22516",
+            "category": "XC60",
+            "id_category": "189"
+        },
+        {
+            "cost": "0",
+            "category": "60 series",
+            "id_category": "201"
+        }
+    ]
+},{
+    "id_category": "139",
+    "cost": "23487",
+    "category": "Jaguar",
+    "categories": [
+        {
+            "cost": "4541",
+            "category": "XF",
+            "id_category": "140"
+        },
+        {
+            "cost": "18946",
+            "category": "F-Pace",
+            "id_category": "196"
+        },
+        {
+            "cost": "0",
+            "category": "XE",
+            "id_category": "202"
+        }
+    ]
+},{
+    "id_category": "146",
+    "cost": "27060",
+    "category": "Tesla",
+    "categories": [
+        {
+            "cost": "27060",
+            "category": "Model S",
+            "id_category": "147"
+        },
+        {
+            "cost": "0",
+            "category": "Model 3",
+            "id_category": "211"
+        }
+    ]
+},{
+    "id_category": "148",
+    "cost": "5563",
+    "category": "Maserati",
+    "categories": [
+        {
+            "cost": "5563",
+            "category": "Ghibli",
+            "id_category": "149"
+        }
+    ]
+},{
+    "id_category": "194",
+    "cost": "21429",
+    "category": "Porsche",
+    "categories": [
+        {
+            "cost": "21429",
+            "category": "Macan",
+            "id_category": "195"
+        }
+    ]
+}
+]
