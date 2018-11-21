@@ -35,13 +35,19 @@ d3.json('data_pie.json').then(function(data_before){
         .attr('class', 'focus-group');
     var nameLabel = focusGroup.append('g')
         .attr('class', 'arc-percent')
+        .style("text-anchor", "middle")
+        .style("font-size", "32px")
         .append("text")
         .attr("dy", "-1.2em");
     var percentLabel = focusGroup.append('g')
         .attr('class', 'arc-percent')
+        .style("text-anchor", "middle")
+        .style("font-size", "24px")
         .append("text");
     var costLabel = focusGroup.append('g')
-        .attr('class', 'arc-cost')
+        .attr('class', 'arc-percent')
+        .style("text-anchor", "middle")
+        .style("font-size", "20px")
         .append("text")
         .attr("dy", "1.2em");
 
@@ -58,7 +64,6 @@ d3.json('data_pie.json').then(function(data_before){
         inLevel = inLevel-1;
         dataChain.splice(dataChain.length - 1, 1);
         var prev = dataChain[dataChain.length - 1];
-        console.log(prev)
         renderPie(prev);
         if(inLevel === 1)
             console.log("first layer")  
@@ -66,8 +71,6 @@ d3.json('data_pie.json').then(function(data_before){
     };
 
     function sliceClick(d, i) {
-        console.log("click")
-        console.log(d)
         if(typeof d.data.categories === 'undefined')
           return false;
         inLevel++;
@@ -89,8 +92,12 @@ d3.json('data_pie.json').then(function(data_before){
         var hovered = d3.select(this);
         var percentage = (((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100).toFixed(1);
         nameLabel.text(d.data.category);
-        percentLabel.text(percentage + '%');
-        costLabel.text(d.data.cost);
+        if(inLevel == 1){
+            percentLabel.text("Market Share: " + percentage + '%');
+        } else{
+            percentLabel.text("% of company sales: " + percentage + '%');
+        }
+        costLabel.text("Total Sales: " + Number(d.data.cost).toLocaleString());
         focusGroup.transition().attr('opacity', 1);
         hovered.transition()
             //.ease("easeInOutQuart")
