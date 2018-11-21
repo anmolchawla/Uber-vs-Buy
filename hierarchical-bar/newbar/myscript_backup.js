@@ -1,4 +1,4 @@
-d3.json('fertility.json').then(function(data_before){
+d3.json('data_bar.json').then(function(data_before){
     console.log(data_before)
     document.getElementById("salesButton").style.background="lightblue";
     //Setting up variables
@@ -68,7 +68,7 @@ d3.json('fertility.json').then(function(data_before){
             .scale(x);
         svg.append("g")
             .attr("class", "axis-X")
-            .attr("transform", "translate(60,100)")
+            .attr("transform", "translate(100,100)")
             .call(axisX);
 
         //setting up text
@@ -104,7 +104,7 @@ d3.json('fertility.json').then(function(data_before){
         d3.selectAll(".axis-Y").remove()
         svg.append("g")
             .attr("class", "axis-Y")
-            .attr("transform", "translate(60,100)")
+            .attr("transform", "translate(100,100)")
             .call(axisY);
 
         var rects = svg.selectAll("rect")
@@ -116,14 +116,7 @@ d3.json('fertility.json').then(function(data_before){
                 //console.log(i)
                 return i * 30 + 102; })
             .attr("x", function(d) { 
-                if(choiceGlobal == 0){
-                    return 61 + 0.1*d.sales; 
-                }
-                else if(choiceGlobal == 1){
-                    return 61 + 0.1*d.mpg; 
-                } else{
-                    return 61 + 0.1*d.price;
-                }
+                return 62;
             })
             .attr("height", 25)
             .attr("width", function (d) { 
@@ -147,14 +140,7 @@ d3.json('fertility.json').then(function(data_before){
             .attr("y", function(d, i) { 
                 return i * 30 + 102; })
             .attr("x", function(d) { 
-                if(choiceGlobal == 0){
-                    return 61 + 0.1*d.sales;
-                }
-                else if(choiceGlobal == 1){
-                    return 61 + 0.1*d.mpg;
-                } else{
-                    return 61 + 0.1*d.price;
-                }
+                return 62;
             })
             .attr("height", 25)
             .attr("width", function (d) { 
