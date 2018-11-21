@@ -5,6 +5,7 @@ d3.json('fertility.json').then(function(data_before){
     var inLevel = 1;
     var dataChain = [];
     var choiceGlobal = 0;
+    var maxV = 0
 
     var svg = d3.select("#chart1");
     var firstData = data_before.map(x => x);
@@ -39,15 +40,20 @@ d3.json('fertility.json').then(function(data_before){
         tempData.forEach(function(d) { 
             if(choice == 0){
                 if(d.sales > maxVal){
-                    maxVal = d.sales
+                    maxVal = d.sales;
                 }
             }
             else if(choice == 1){
                 if(d.mpg > maxVal){
-                    maxVal = d.mpg
+                    maxVal = d.mpg;
+                }
+            } else{
+                if(d.price > maxVal){
+                    maxVal = d.price;
                 }
             }
         });
+        maxV = maxVal
         
         /* Remove any existing lines */
         d3.select("#chart").selectAll("*").remove();
@@ -76,12 +82,12 @@ d3.json('fertility.json').then(function(data_before){
             .style("text-anchor", "middle")
             .text("Fertility Rate");
         var ylabel = svg.append("text")             
-            .attr("transform","translate(50, 350),rotate(-90)")
+            .attr("transform","translate(10, 250),rotate(-90)")
             .style("text-anchor", "middle")
             .text("Country");
 
         //call first state
-        update(tempData, choice);
+        update(tempData);
     }
     
     //update function
@@ -115,15 +121,19 @@ d3.json('fertility.json').then(function(data_before){
                 }
                 else if(choiceGlobal == 1){
                     return 61 + 0.1*d.mpg; 
+                } else{
+                    return 61 + 0.1*d.price;
                 }
             })
             .attr("height", 25)
             .attr("width", function (d) { 
                 if(choiceGlobal == 0){
-                    return 40*d.sales; 
+                    return 280*(d.sales/maxV); 
                 }
                 else if(choiceGlobal == 1){
-                    return 40*d.mpg;
+                    return 280*(d.mpg/maxV); 
+                } else {
+                    return 280*(d.price/maxV);;
                 }
             })
             .attr("fill", "skyblue");
@@ -142,15 +152,19 @@ d3.json('fertility.json').then(function(data_before){
                 }
                 else if(choiceGlobal == 1){
                     return 61 + 0.1*d.mpg;
+                } else{
+                    return 61 + 0.1*d.price;
                 }
             })
             .attr("height", 25)
             .attr("width", function (d) { 
                 if(choiceGlobal == 0){
-                    return 40*d.sales;
+                    return 280*(d.sales/maxV);
                 }
                 else if(choiceGlobal == 1){
-                    return 40*d.mpg;
+                    return 280*(d.mpg/maxV);
+                } else{
+                    return 280*(d.price/maxV)
                 }
             })
             .attr("fill", "skyblue")
@@ -208,7 +222,9 @@ d3.json('fertility.json').then(function(data_before){
             } 
             else if(choiceGlobal == 1){
                 return b.mpg - a.mpg;
-            } 
+            } else{
+                return b.price - a.price;
+            }
         }));
     });
     d3.select("#ascButton")
@@ -220,7 +236,9 @@ d3.json('fertility.json').then(function(data_before){
             } 
             else if(choiceGlobal == 1){
                 return a.mpg - b.mpg;
-            } 
+            } else{
+                return a.price - b.price;
+            }
         }));
     });
     d3.select("#alphaButton")
@@ -246,8 +264,15 @@ d3.json('fertility.json').then(function(data_before){
             whitePrice()
             renderBars(currentData,1)
         });
+    d3.select("#priceButton")
+        .on("click", function() {            
+            this.style.background='lightblue';
+            whiteMpg()
+            whiteSales()
+            renderBars(currentData,2)
+        });
 
-    var button = d3.select("#resetButton")
+    d3.select("#resetButton")
         .on("click", goLevelUp)
     
     function whitePrice() {document.getElementById("priceButton").style.background="white";}
