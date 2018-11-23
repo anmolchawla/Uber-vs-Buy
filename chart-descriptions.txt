@@ -1,0 +1,50 @@
+Line Chart:
+
+This chart allows you to analyze the trends in car sales from 1973 until 2017.
+To drill down into the segments, click on the line you desire. To view the sales of the srgment in a certain year, hover over the dot.
+The hierarchy of the data goes from car segment, to size, to individual car.
+
+Donut Chart:
+
+This chart shows the market shares for each car company in the overall car market in 2017, excluding exotic sports cars. 
+Hover over the slice desired to view its market share and total sales.
+Click on the slice you want to see what cars that respective company makes and what percent of sales each of their cars make of their total sales.
+
+Horizontal Bar Chart:
+
+This bar chart allows you compare the sales, miles per gallon, and price of the automobile market in 2017.
+The chart is hierarchical where it goes from segment of car to size and then to the individual car. 
+For the miles per gallon and price, the values shown are averaged for the cars in the respective category where sales is aggregated.
+For the miles per gallon for electric cars, the value is defaulted to zero unless it is an electric and gas car in which the gas mileage is shown.
+Electric cars are displayed with green bars.
+
+Lollipop Chart:
+
+This chart shows the different ranges for electric cars. Some of these cars are electric and gas but only the range of its electric tank is displayed.
+Click on the icon on top of each lollipop to select the electric car of choice which will be used in the next map. 
+
+Electric outlet maps:
+
+This map below shows the locations of all public electric car charging stations in the United States. 
+When you hover over a station's point, it will expand its radius to the length of the range of the electric car you chose in the lollipop map above.
+This allows you to see if you can make it from a certain point to another by hopping between charging stations.
+When you hover, the charging station's information is also displayed for you to use if desired.
+
+Car summary Section:
+
+Below is the general information for the car you currently have selected. 
+To confirm your selection on this car, click "Select".
+
+Uber car comparisons:
+
+Below gives the average price for the different available kinds of Ubers available from your starting location.
+Hover over a bar to view its low and high price. This will give you the range in which you can expect the charge to be.
+We will use the average cost for our comparisons.
+Click on a bar to select the Uber desired. UberX is the most typical uber of choice. 
+
+Car vs. Uber:
+
+Based on the car you selected and your commute, we have provided a suggestion below on whether to buy a car or to uber.
+It also gives you a rough estimate on the amount of money you would save as compared to going with the other option.
+You can change certain features such as the amount of miles you expect to drive in a week and the amount of years you expect to own the car to see if this changes the results.
+
