@@ -1,0 +1,51 @@
+<html>
+<h2>{{ title }}</h2>
+<body>
+        
+
+
+        <h1>Drill down bar chart to explore the market</h1>
+        <p>This bar chart allows you to drill down from type of car, to size of car, and ultimately to the model. </p>
+        <p>You can have the values show by number of sales, miles per gallon (MPG), or base price for 2017.</p>
+        <div id= "line_chart">
+            <button id="backButton">Back</button>
+        </div>
+        <svg id="chart" width="1000" height="700"></svg>
+
+
+        <h1>Project Pie Chart</h1>
+        <p>Shows company market shares.</p>
+        <div class="resetGroup1">
+                <p><b>Go Back: </b></p>
+                <button type="button" id="resetpieButton">Back</button>
+        </div>
+        <svg width="700px" height="700px" id="chart2" transform="translate(30,0)"></svg>
+
+
+
+        <h1>Project Bar Chart</h1>
+        <p>Below is an interactive visualization of the fertility rates of 10 countries in 1950.</p>
+        <div class="reorderGroup">
+            <p><b>Reorder Data: </b></p>
+            <button type="button" id="alphaButton">Alphabetically</button>
+            <button type="button" id="ascButton">Ascending</button>
+            <button type="button" id="descButton">Descending</button>
+        </div>
+        <div class="filterGroup">
+            <p><b>Filter Data: </b></p>
+            <button type="button" id="salesButton">Sales</button>
+            <button type="button" id="mpgButton">MPG</button>
+            <button type="button" id="priceButton">Price</button>
+        </div>
+        <div class="resetGroup">
+                <p><b>Go Back: </b></p>
+                <button type="button" id="resetButton">Back</button>
+        </div>
+        <svg width="1150px" height="1420px" id="chart1" transform="translate(30,0)"></svg>   
+
+
+
+
+
+</body>
+</html>
