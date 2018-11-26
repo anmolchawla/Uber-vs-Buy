@@ -1,6 +1,7 @@
 [
     {
         "name": "Honda Civic",
+        "msrp":18740,
         "mpg": 34,
         "electric": false,
         "segment": "car",
@@ -57,6 +58,7 @@
     },
     {
         "name": "Toyota Corolla",
+        "msrp": 18500,
         "mpg": 32,
         "electric": false,
         "segment": "car",
@@ -113,6 +115,7 @@
     },
     {
         "name": "Nissan Sentra",
+        "msrp": 16990,
         "mpg": 32,
         "electric": false,
         "segment": "car",
@@ -169,6 +172,7 @@
     },
     {
         "name": "Hyundai Elantra",
+        "msrp": 17150,
         "mpg": 35,
         "electric": false,
         "segment": "car",
@@ -226,6 +230,7 @@
     {
         "name": "Chevrolet Cruze",
         "mpg": 34,
+        "msrp": 16975,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -282,6 +287,7 @@
     {
         "name": "Ford Focus",
         "mpg": 31,
+        "msrp": 16775,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -338,6 +344,7 @@
     {
         "name": "Kia Forte",
         "mpg": 32,
+        "msrp": 16600,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -394,6 +401,7 @@
     {
         "name": "Mazda Mazda3",
         "mpg": 31,
+        "msrp": 17845,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -450,6 +458,7 @@
     {
         "name": "Subaru Impreza",
         "mpg": 32,
+        "msrp": 18395,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -506,6 +515,7 @@
     {
         "name": "Volkswagon Jetta",
         "mpg": 32,
+        "msrp": 17895,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -562,6 +572,7 @@
     {
         "name": "Volkswagon Golf",
         "mpg": 28,
+        "msrp": 19895,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -617,6 +628,7 @@
     },
     {
         "name": "Toyota Prius",
+        "msrp": 23475,
         "mpg": 41,
         "electric": false,
         "segment": "car",
@@ -673,6 +685,7 @@
     },
     {
         "name": "Kia Niro",
+        "msrp": 22890,
         "mpg": 43,
         "electric": false,
         "segment": "car",
@@ -729,6 +742,7 @@
     },
     {
         "name": "Hyundai Ioniq",
+        "msrp": 22200,
         "mpg": 55,
         "electric": false,
         "segment": "car",
@@ -785,6 +799,7 @@
     },
     {
         "name": "Volkwagon Beetle",
+        "msrp": 19995,
         "mpg": 28,
         "electric": false,
         "segment": "car",
@@ -841,6 +856,7 @@
     },
     {
         "name": "Chevrolet Bolt",
+        "msrp": 36620,
         "mpg": 0,
         "empg": 238,
         "electric": true,
@@ -898,6 +914,7 @@
     },
     {
         "name": "Chevrolet Volt",
+        "msrp": 33220,
         "mpg": 42,
         "empg": 106,
         "electric": false,
@@ -955,6 +972,7 @@
     },
     {
         "name": "Nissan Leaf",
+        "msrp": 30680,
         "mpg": 0,
         "empg": 151,
         "electric": true,
@@ -1012,6 +1030,7 @@
     },
     {
         "name": "Mitsubishi Lancer",
+        "msrp": 17795,
         "mpg": 30,
         "electric": false,
         "segment": "car",
@@ -1068,6 +1087,7 @@
     },
     {
         "name": "Toyota Mirai",
+        "msrp": 57500,
         "mpg": 0,
         "empg": 312,
         "electric": true,
@@ -1126,6 +1146,7 @@
     {
         "name": "Dodge Dart",
         "mpg": 28,
+        "msrp": 17700,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -1182,6 +1203,7 @@
     {
         "name": "Buick Verano",
         "mpg": 24,
+        "msrp": 21065,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -1238,6 +1260,7 @@
     {
         "name": "Mercedes-Benz B-Class",
         "mpg": 0,
+        "msrp": 39900,
         "empg": 85,
         "electric": true,
         "segment": "car",
@@ -1295,6 +1318,7 @@
     {
         "name": "GMC Canyon",
         "mpg": 22,
+        "msrp": 20885,
         "electric": false,
         "segment": "truck",
         "size": "compact",
@@ -1351,6 +1375,7 @@
     {
         "name": "Chevrolet Colorado",
         "mpg": 22,
+        "msrp": 20000,
         "electric": false,
         "segment": "car",
         "size": "compact",
@@ -1406,6 +1431,7 @@
     },
     {
         "name": "Nissan Frontier",
+        "msrp": 18390,
         "mpg": 18,
         "electric": false,
         "segment": "truck",
@@ -1462,6 +1488,7 @@
     },
     {
         "name": "Toyota Tacoma",
+        "msrp": 24575,
         "mpg": 20,
         "electric": false,
         "segment": "truck",
@@ -1518,6 +1545,7 @@
     },
     {
         "name": "Honda Ridgeline",
+        "msrp": 29475,
         "mpg": 21,
         "electric": false,
         "segment": "truck",
@@ -1574,6 +1602,7 @@
     },
     {
         "name": "Jeep Cherokee",
+        "msrp": 23695,
         "mpg": 25,
         "electric": false,
         "segment": "suv",
@@ -1630,6 +1659,7 @@
     },
     {
         "name": "Jeep Wrangler",
+        "msrp": 23995,
         "mpg": 18,
         "electric": false,
         "segment": "suv",
@@ -1686,6 +1716,7 @@
     },
     {
         "name": "Kia Sportage",
+        "msrp": 23200,
         "mpg": 22,
         "electric": false,
         "segment": "suv",
@@ -1742,6 +1773,7 @@
     },
     {
         "name": "Toyota RAV4",
+        "msrp": 24410,
         "mpg": 25,
         "electric": false,
         "segment": "suv",
@@ -1798,6 +1830,7 @@
     },
     {
         "name": "Honda CR-V",
+        "msrp": 24045,
         "mpg": 29,
         "electric": false,
         "segment": "suv",
@@ -1854,6 +1887,7 @@
     },
     {
         "name": "Subaru Forester",
+        "msrp": 22595,
         "mpg": 26,
         "electric": false,
         "segment": "suv",
@@ -1910,6 +1944,7 @@
     },
     {
         "name": "Nissan Xterra",
+        "msrp": 27200,
         "mpg": 19,
         "electric": false,
         "segment": "suv",
@@ -1966,6 +2001,7 @@
     },
     {
         "name": "Ford Escape",
+        "msrp": 23750,
         "mpg": 26,
         "electric": false,
         "segment": "suv",
@@ -2022,6 +2058,7 @@
     },
     {
         "name": "Mitsubishi Outlander",
+        "msrp": 23495,
         "mpg": 27,
         "electric": false,
         "segment": "suv",
@@ -2078,6 +2115,7 @@
     },
     {
         "name": "Chevrolet Equinox",
+        "msrp": 23100,
         "mpg": 23,
         "electric": false,
         "segment": "suv",
@@ -2134,6 +2172,7 @@
     },
     {
         "name": "Hyundai Tucson",
+        "msrp": 22700,
         "mpg": 24,
         "electric": false,
         "segment": "suv",
@@ -2190,6 +2229,7 @@
     },
     {
         "name": "Jeep Compass",
+        "msrp": 19940,
         "mpg": 22,
         "electric": false,
         "segment": "suv",
@@ -2246,6 +2286,7 @@
     },
     {
         "name": "Toyota FJ Cruiser",
+        "msrp": 43340,
         "mpg": 18,
         "electric": false,
         "segment": "suv",
@@ -2302,6 +2343,7 @@
     },
     {
         "name": "Jeep Patriot",
+        "msrp": 18040,
         "mpg": 24,
         "electric": false,
         "segment": "suv",
@@ -2358,6 +2400,7 @@
     },
     {
         "name": "Nissan Rogue",
+        "msrp": 23820,
         "mpg": 31,
         "electric": false,
         "segment": "suv",
@@ -2414,6 +2457,7 @@
     },
     {
         "name": "Dodge Journey",
+        "msrp": 21195,
         "mpg": 19,
         "electric": false,
         "segment": "suv",
@@ -2470,6 +2514,7 @@
     },
     {
         "name": "Volkswagen Tiguan",
+        "msrp": 24995,
         "mpg": 21,
         "electric": false,
         "segment": "suv",
@@ -2526,6 +2571,7 @@
     },
     {
         "name": "GMC Terrain",
+        "msrp": 24070,
         "mpg": 24,
         "electric": false,
         "segment": "suv",
@@ -2582,6 +2628,7 @@
     },
     {
         "name": "Mazda CX-5",
+        "msrp": 24045,
         "mpg": 26,
         "electric": false,
         "segment": "suv",
@@ -2638,6 +2685,7 @@
     },
     {
         "name": "Subaru Crosstrek",
+        "msrp": 21695,
         "mpg": 27,
         "electric": false,
         "segment": "suv",
@@ -2694,6 +2742,7 @@
     },
     {
         "name": "Kia Niro",
+        "msrp": 22890,
         "mpg": 49,
         "electric": false,
         "segment": "suv",
@@ -2750,6 +2799,7 @@
     },
     {
         "name": "Buick LaCrosse",
+        "msrp": 32065,
         "mpg": 25,
         "electric": false,
         "segment": "car",
@@ -2806,6 +2856,7 @@
     },
     {
         "name": "Chevrolet Caprice",
+        "msrp": 32965,
         "mpg": 23,
         "electric": false,
         "segment": "car",
@@ -2862,6 +2913,7 @@
     },
     {
         "name": "Chevrolet Impala",
+        "msrp": 27500,
         "mpg": 24,
         "electric": false,
         "segment": "car",
@@ -2918,6 +2970,7 @@
     },
     {
         "name": "Chevrolet SS",
+        "msrp": 46625,
         "mpg": 16,
         "electric": false,
         "segment": "car",
@@ -2974,6 +3027,7 @@
     },
     {
         "name": "Chrysler 300",
+        "msrp": 35675,
         "mpg": 22,
         "electric": false,
         "segment": "car",
@@ -3030,6 +3084,7 @@
     },
     {
         "name": "Dodge Charger",
+        "msrp": 27995,
         "mpg": 21,
         "electric": false,
         "segment": "car",
@@ -3086,6 +3141,7 @@
     },
     {
         "name": "Ford Taurus",
+        "msrp": 27345,
         "mpg": 21,
         "electric": false,
         "segment": "car",
@@ -3142,6 +3198,7 @@
     },
     {
         "name": "Hyundai Azera",
+        "msrp": 34100,
         "mpg": 23,
         "electric": false,
         "segment": "car",
@@ -3198,6 +3255,7 @@
     },
     {
         "name": "Kia Cadenza",
+        "msrp": 31990,
         "mpg": 23,
         "electric": false,
         "segment": "car",
@@ -3254,6 +3312,7 @@
     },
     {
         "name": "Nissan Maxima",
+        "msrp": 32610,
         "mpg": 25,
         "electric": false,
         "segment": "car",
@@ -3310,6 +3369,7 @@
     },
     {
         "name": "Toyota Avalon",
+        "msrp": 33300,
         "mpg": 24,
         "electric": false,
         "segment": "car",
@@ -3366,6 +3426,7 @@
     },
     {
         "name": "Toyota 4Runner",
+        "msrp": 34210,
         "mpg": 18,
         "electric": false,
         "segment": "suv",
@@ -3422,6 +3483,7 @@
     },
     {
         "name": "Nissan Pathfinder",
+        "msrp": 30290,
         "mpg": 23,
         "electric": false,
         "segment": "suv",
@@ -3478,6 +3540,7 @@
     },
     {
         "name": "Ford Explorer",
+        "msrp": 31660,
         "mpg": 21,
         "electric": false,
         "segment": "suv",
@@ -3534,6 +3597,7 @@
     },
     {
         "name": "Jeep Grand Cherokee",
+        "msrp": 30395,
         "mpg": 21,
         "electric": false,
         "segment": "suv",
@@ -3590,6 +3654,7 @@
     },
     {
         "name": "Dodge Durango",
+        "msrp": 29995,
         "mpg": 19,
         "electric": false,
         "segment": "suv",
@@ -3646,6 +3711,7 @@
     },
     {
         "name": "Hyundai Santa Fe",
+        "msrp": 30800,
         "mpg": 23,
         "electric": false,
         "segment": "suv",
@@ -3702,6 +3768,7 @@
     },
     {
         "name": "Toyota Highlander",
+        "msrp": 30630,
         "mpg": 22,
         "electric": false,
         "segment": "suv",
@@ -3758,6 +3825,7 @@
     },
     {
         "name": "Honda Pilot",
+        "msrp": 30745,
         "mpg": 21,
         "electric": false,
         "segment": "suv",
@@ -3814,6 +3882,7 @@
     },
     {
         "name": "Kia Sorento",
+        "msrp": 25600,
         "mpg": 21,
         "electric": false,
         "segment": "suv",
@@ -3870,6 +3939,7 @@
     },
     {
         "name": "Nissan Murano",
+        "msrp": 29740,
         "mpg": 24,
         "electric": false,
         "segment": "suv",
@@ -3926,6 +3996,7 @@
     },
     {
         "name": "Volkswagen Touareg",
+        "msrp": 49495,
         "mpg": 19,
         "electric": false,
         "segment": "suv",
@@ -3982,6 +4053,7 @@
     },
     {
         "name": "Ford Edge",
+        "msrp": 28950,
         "mpg": 23,
         "electric": false,
         "segment": "suv",
@@ -4038,6 +4110,7 @@
     },
     {
         "name": "GMC Acadia",
+        "msrp": 29070,
         "mpg": 22,
         "electric": false,
         "segment": "suv",
@@ -4094,6 +4167,7 @@
     },
     {
         "name": "Buick Enclave",
+        "msrp": 39065,
         "mpg": 17,
         "electric": false,
         "segment": "suv",
@@ -4150,6 +4224,7 @@
     },
     {
         "name": "Mazda CX-9",
+        "msrp": 31520,
         "mpg": 24,
         "electric": false,
         "segment": "suv",
@@ -4206,6 +4281,7 @@
     },
     {
         "name": "Chevrolet Traverse",
+        "msrp": 28700,
         "mpg": 18,
         "electric": false,
         "segment": "suv",
@@ -4262,6 +4338,7 @@
     },
     {
         "name": "Ford Flex",
+        "msrp": 30025,
         "mpg": 19,
         "electric": false,
         "segment": "suv",
@@ -4318,6 +4395,7 @@
     },
     {
         "name": "Buick Envision",
+        "msrp": 34065,
         "mpg": 25,
         "electric": false,
         "segment": "suv",
@@ -4374,6 +4452,7 @@
     },
     {
         "name": "Volkswagen Atlas",
+        "msrp": 31425,
         "mpg": 24,
         "electric": false,
         "segment": "suv",
@@ -4430,6 +4509,7 @@
     },
     {
         "name": "Mitsubishi Mirage",
+        "msrp": 12995,
         "mpg": 37,
         "electric": false,
         "segment": "car",
@@ -4485,6 +4565,7 @@
     },
     {
         "name": "Mini Cooper",
+        "msrp": 20950,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -4540,6 +4621,7 @@
     },
     {
         "name": "Chevy Spark",
+        "msrp": 13000,
         "mpg": 34,
         "electric": false,
         "segment": "car",
@@ -4595,6 +4677,7 @@
     },
     {
         "name": "Fiat 500",
+        "msrp": 16245,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -4650,6 +4733,7 @@
     },
     {
         "name": "Smart",
+        "msrp": 15500,
         "mpg": 40,
         "electric": false,
         "segment": "car",
@@ -4701,10 +4785,11 @@
         "1983": 0,
         "1984": 0,
         "brand": "Smart",
-        "model": ""
+        "model": "Car"
     },
     {
         "name": "Audi A3",
+        "msrp": 31200,
         "mpg": 29,
         "electric": false,
         "segment": "car",
@@ -4761,6 +4846,7 @@
     },
     {
         "name": "Mini Clubman",
+        "msrp": 24100,
         "mpg": 27,
         "electric": false,
         "segment": "car",
@@ -4817,6 +4903,7 @@
     },
     {
         "name": "Lexus CT",
+        "msrp": 31250,
         "mpg": 41,
         "electric": false,
         "segment": "car",
@@ -4873,6 +4960,7 @@
     },
     {
         "name": "Acura ILX",
+        "msrp": 27990,
         "mpg": 29,
         "electric": false,
         "segment": "car",
@@ -4929,6 +5017,7 @@
     },
     {
         "name": "Cadillac ELR",
+        "msrp": 65995,
         "mpg": 33,
         "electric": false,
         "segment": "car",
@@ -4985,6 +5074,7 @@
     },
     {
         "name": "Mercedes-Benz CLA",
+        "msrp": 32400,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -5041,6 +5131,7 @@
     },
     {
         "name": "BMW 2-series",
+        "msrp": 33150,
         "mpg": 28,
         "electric": false,
         "segment": "car",
@@ -5097,6 +5188,7 @@
     },
     {
         "name": "BMW i3",
+        "msrp": 42400,
         "mpg": 83,
         "electric": true,
         "segment": "car",
@@ -5153,6 +5245,7 @@
     },
     {
         "name": "BMW X1",
+        "msrp": 33750,
         "mpg": 26,
         "electric": false,
         "segment": "suv",
@@ -5209,6 +5302,7 @@
     },
     {
         "name": "Mercedes-Benz GLA",
+        "msrp": 32850,
         "mpg": 25,
         "electric": false,
         "segment": "suv",
@@ -5265,6 +5359,7 @@
     },
     {
         "name": "Audi Q3",
+        "msrp": 31800,
         "mpg": 23,
         "electric": false,
         "segment": "suv",
@@ -5321,6 +5416,7 @@
     },
     {
         "name": "Infiniti QX30",
+        "msrp": 29950,
         "mpg": 26,
         "electric": false,
         "segment": "suv",
@@ -5377,6 +5473,7 @@
     },
     {
         "name": "Range Rover Evoque",
+        "msrp": 41800,
         "mpg": 24,
         "electric": false,
         "segment": "suv",
@@ -5433,6 +5530,7 @@
     },
     {
         "name": "BMW 5-series",
+        "msrp": 51200,
         "mpg": 31,
         "electric": false,
         "segment": "car",
@@ -5489,6 +5587,7 @@
     },
     {
         "name": "BMW 6-series",
+        "msrp": 77600,
         "mpg": 24,
         "electric": false,
         "segment": "car",
@@ -5545,6 +5644,7 @@
     },
     {
         "name": "Mercedes-Benz E-Class",
+        "msrp": 52150,
         "mpg": 25,
         "electric": false,
         "segment": "car",
@@ -5601,6 +5701,7 @@
     },
     {
         "name": "Lincoln Continental",
+        "msrp": 44720,
         "mpg": 15,
         "electric": false,
         "segment": "car",
@@ -5657,6 +5758,7 @@
     },
     {
         "name": "Infiniti Q70",
+        "msrp": 50100,
         "mpg": 20,
         "electric": false,
         "segment": "car",
@@ -5713,6 +5815,7 @@
     },
     {
         "name": "Lexus ES",
+        "msrp": 38900,
         "mpg": 43,
         "electric": false,
         "segment": "car",
@@ -5769,6 +5872,7 @@
     },
     {
         "name": "Lexus GS",
+        "msrp": 46310,
         "mpg": 27,
         "electric": false,
         "segment": "car",
@@ -5825,6 +5929,7 @@
     },
     {
         "name": "Audi A6",
+        "msrp": 47600,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -5881,6 +5986,7 @@
     },
     {
         "name": "Acura RLX",
+        "msrp": 54450,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -5937,6 +6043,7 @@
     },
     {
         "name": "Volvo 70/80 series",
+        "msrp": 54670,
         "mpg": 32,
         "electric": false,
         "segment": "car",
@@ -5993,6 +6100,7 @@
     },
     {
         "name": "Volvo S90",
+        "msrp": 46950,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -6049,6 +6157,7 @@
     },
     {
         "name": "Jaguar XF",
+        "msrp": 48250,
         "mpg": 28,
         "electric": false,
         "segment": "car",
@@ -6105,6 +6214,7 @@
     },
     {
         "name": "Cadillac CTS",
+        "msrp": 45995,
         "mpg": 24,
         "electric": false,
         "segment": "car",
@@ -6161,6 +6271,7 @@
     },
     {
         "name": "Mercedes-Benz CLS-class",
+        "msrp": 74850,
         "mpg": 18,
         "electric": false,
         "segment": "car",
@@ -6217,6 +6328,7 @@
     },
     {
         "name": "Hyundai Genesis Sedan",
+        "msrp": 68100,
         "mpg": 20,
         "electric": false,
         "segment": "car",
@@ -6273,6 +6385,7 @@
     },
     {
         "name": "Audi A7",
+        "msrp": 68800,
         "mpg": 24,
         "electric": false,
         "segment": "car",
@@ -6329,6 +6442,7 @@
     },
     {
         "name": "Cadillac XTS",
+        "msrp": 45595,
         "mpg": 20,
         "electric": false,
         "segment": "car",
@@ -6385,6 +6499,7 @@
     },
     {
         "name": "Tesla Model S",
+        "msrp": 68000,
         "mpg": 270,
         "electric": false,
         "segment": "car",
@@ -6441,6 +6556,7 @@
     },
     {
         "name": "Maserati Ghibli",
+        "msrp": 71600,
         "mpg": 19,
         "electric": false,
         "segment": "car",
@@ -6497,6 +6613,7 @@
     },
     {
         "name": "Genesis G80",
+        "msrp": 41400,
         "mpg": 20,
         "electric": false,
         "segment": "car",
@@ -6553,6 +6670,7 @@
     },
     {
         "name": "Volvo V90",
+        "msrp": 55300,
         "mpg": 25,
         "electric": false,
         "segment": "car",
@@ -6609,6 +6727,7 @@
     },
     {
         "name": "Range Rover",
+        "msrp": 85650,
         "mpg": 20,
         "electric": false,
         "segment": "suv",
@@ -6659,12 +6778,13 @@
         "1992": 0,
         "1993": 0,
         "1994": 0,
-        "brand": "Range",
-        "model": "Rover",
+        "brand": "Land Rover",
+        "model": "Range Rover",
         "service": 508.7324
     },
     {
         "name": "Lexus LX",
+        "msrp": 89880,
         "mpg": 15,
         "electric": false,
         "segment": "suv",
@@ -6721,6 +6841,7 @@
     },
     {
         "name": "Lincoln Navigator",
+        "msrp": 63515,
         "mpg": 17,
         "electric": false,
         "segment": "suv",
@@ -6777,6 +6898,7 @@
     },
     {
         "name": "Cadillac Escalade",
+        "msrp": 73395,
         "mpg": 17,
         "electric": false,
         "segment": "suv",
@@ -6833,6 +6955,7 @@
     },
     {
         "name": "Mercedes-Benz G-class",
+        "msrp": 122400,
         "mpg": 13,
         "electric": false,
         "segment": "suv",
@@ -6889,6 +7012,7 @@
     },
     {
         "name": "Cadillac Escalade ESV",
+        "msrp": 76395,
         "mpg": 18,
         "electric": false,
         "segment": "suv",
@@ -6945,6 +7069,7 @@
     },
     {
         "name": "Infiniti QX80",
+        "msrp": 63850,
         "mpg": 16,
         "electric": false,
         "segment": "suv",
@@ -7001,6 +7126,7 @@
     },
     {
         "name": "Mercedes-Benz GLS-class",
+        "msrp": 67050,
         "mpg": 17,
         "electric": false,
         "segment": "suv",
@@ -7056,63 +7182,8 @@
         "service": 508.7324
     },
     {
-        "name": "Bentley Bentayga",
-        "mpg": 15,
-        "electric": false,
-        "segment": "suv",
-        "size": "large",
-        "premium": true,
-        "1995": 0,
-        "1996": 0,
-        "1997": 0,
-        "1998": 0,
-        "1999": 0,
-        "2000": 0,
-        "2001": 0,
-        "2002": 0,
-        "2003": 0,
-        "2004": 0,
-        "2005": 0,
-        "2006": 0,
-        "2007": 0,
-        "2008": 0,
-        "2009": 0,
-        "2010": 0,
-        "2011": 0,
-        "2012": 0,
-        "2013": 0,
-        "2014": 0,
-        "2015": 0,
-        "2016": 884,
-        "2017": 1152,
-        "1973": 0,
-        "1974": 0,
-        "1975": 0,
-        "1976": 0,
-        "1977": 0,
-        "1978": 0,
-        "1979": 0,
-        "1980": 0,
-        "1981": 0,
-        "1982": 0,
-        "1983": 0,
-        "1984": 0,
-        "1985": 0,
-        "1986": 0,
-        "1987": 0,
-        "1988": 0,
-        "1989": 0,
-        "1990": 0,
-        "1991": 0,
-        "1992": 0,
-        "1993": 0,
-        "1994": 0,
-        "brand": "Bentley",
-        "model": "Bentayga",
-        "service": 508.7324
-    },
-    {
         "name": "Ram Pickup",
+        "msrp": 26495,
         "mpg": 20,
         "electric": false,
         "segment": "truck",
@@ -7163,12 +7234,13 @@
         "1981": 0,
         "1982": 0,
         "1983": 0,
-        "brand": "Ram",
-        "model": "Pickup",
+        "brand": "Dodge",
+        "model": "Ram Pickup",
         "service": 508.7324
     },
     {
         "name": "Chevrolet Silverado",
+        "msrp": 27785,
         "mpg": 18,
         "electric": false,
         "segment": "truck",
@@ -7225,6 +7297,7 @@
     },
     {
         "name": "Ford F-series",
+        "msrp": 27110,
         "mpg": 19,
         "electric": false,
         "segment": "truck",
@@ -7281,6 +7354,7 @@
     },
     {
         "name": "GMC Sierra",
+        "msrp": 28405,
         "mpg": 18,
         "electric": false,
         "segment": "truck",
@@ -7337,6 +7411,7 @@
     },
     {
         "name": "Toyota Tundra",
+        "msrp": 30120,
         "mpg": 16,
         "electric": false,
         "segment": "truck",
@@ -7393,6 +7468,7 @@
     },
     {
         "name": "Nissan Titan",
+        "msrp": 29580,
         "mpg": 18,
         "electric": false,
         "segment": "truck",
@@ -7449,6 +7525,7 @@
     },
     {
         "name": "Toyota Land Cruiser",
+        "msrp": 84775,
         "mpg": 15,
         "electric": false,
         "segment": "suv",
@@ -7505,6 +7582,7 @@
     },
     {
         "name": "GMC Yukon",
+        "msrp": 48530,
         "mpg": 19,
         "electric": false,
         "segment": "suv",
@@ -7561,6 +7639,7 @@
     },
     {
         "name": "Chevrolet Suburban",
+        "msrp": 49915,
         "mpg": 18,
         "electric": false,
         "segment": "suv",
@@ -7617,6 +7696,7 @@
     },
     {
         "name": "Chevrolet Tahoe",
+        "msrp": 47215,
         "mpg": 18,
         "electric": false,
         "segment": "suv",
@@ -7673,6 +7753,7 @@
     },
     {
         "name": "GMC Yukon XL",
+        "msrp": 51230,
         "mpg": 18,
         "electric": false,
         "segment": "suv",
@@ -7729,6 +7810,7 @@
     },
     {
         "name": "Ford Expedition",
+        "msrp": 47125,
         "mpg": 18,
         "electric": false,
         "segment": "suv",
@@ -7785,6 +7867,7 @@
     },
     {
         "name": "Toyota Sequoia",
+        "msrp": 45560,
         "mpg": 15,
         "electric": false,
         "segment": "suv",
@@ -7841,6 +7924,7 @@
     },
     {
         "name": "Nissan Armada",
+        "msrp": 44900,
         "mpg": 15,
         "electric": false,
         "segment": "suv",
@@ -7897,6 +7981,7 @@
     },
     {
         "name": "Chrysler Pacifica",
+        "msrp": 28995,
         "mpg": 22,
         "electric": false,
         "segment": "minivan",
@@ -7953,6 +8038,7 @@
     },
     {
         "name": "Chrysler Town & Country",
+        "msrp": 27100,
         "mpg": 20,
         "electric": false,
         "segment": "minivan",
@@ -8009,6 +8095,7 @@
     },
     {
         "name": "Dodge Grand Caravan",
+        "msrp": 25995,
         "mpg": 20,
         "electric": false,
         "segment": "minivan",
@@ -8065,6 +8152,7 @@
     },
     {
         "name": "Honda Odyssey",
+        "msrp": 29850,
         "mpg": 22,
         "electric": false,
         "segment": "minivan",
@@ -8121,6 +8209,7 @@
     },
     {
         "name": "Kia Sedona",
+        "msrp": 26900,
         "mpg": 21,
         "electric": false,
         "segment": "minivan",
@@ -8177,6 +8266,7 @@
     },
     {
         "name": "Mazda Mazda5",
+        "msrp": 22400,
         "mpg": 24,
         "electric": false,
         "segment": "minivan",
@@ -8233,6 +8323,7 @@
     },
     {
         "name": "Nissan Quest",
+        "msrp": 27500,
         "mpg": 22,
         "electric": false,
         "segment": "minivan",
@@ -8289,6 +8380,7 @@
     },
     {
         "name": "Toyota Sienna",
+        "msrp": 29750,
         "mpg": 21,
         "electric": false,
         "segment": "minivan",
@@ -8345,6 +8437,7 @@
     },
     {
         "name": "Land Rover Discovery Sport",
+        "msrp": 37695,
         "mpg": 22,
         "electric": false,
         "segment": "suv",
@@ -8395,12 +8488,13 @@
         "1999": 0,
         "2000": 0,
         "2001": 0,
-        "brand": "Land",
-        "model": "Rover Discovery Sport",
+        "brand": "Land Rover",
+        "model": "Discovery Sport",
         "service": 478.2206
     },
     {
         "name": "Cadillac XT5",
+        "msrp": 39395,
         "mpg": 22,
         "electric": false,
         "segment": "suv",
@@ -8457,6 +8551,7 @@
     },
     {
         "name": "BMW X3",
+        "msrp": 40050,
         "mpg": 22,
         "electric": false,
         "segment": "suv",
@@ -8513,6 +8608,7 @@
     },
     {
         "name": "Acura RDX",
+        "msrp": 35670,
         "mpg": 23,
         "electric": false,
         "segment": "suv",
@@ -8569,6 +8665,7 @@
     },
     {
         "name": "Infiniti QX50",
+        "msrp": 34650,
         "mpg": 20,
         "electric": false,
         "segment": "suv",
@@ -8625,6 +8722,7 @@
     },
     {
         "name": "Audi Q5",
+        "msrp": 40900,
         "mpg": 22,
         "electric": false,
         "segment": "suv",
@@ -8681,6 +8779,7 @@
     },
     {
         "name": "Mercedes-Benz GLC-class",
+        "msrp": 39150,
         "mpg": 20,
         "electric": false,
         "segment": "suv",
@@ -8737,6 +8836,7 @@
     },
     {
         "name": "Volvo XC60",
+        "msrp": 40950,
         "mpg": 22,
         "electric": false,
         "segment": "suv",
@@ -8793,6 +8893,7 @@
     },
     {
         "name": "Audi A4 Allroad",
+        "msrp": 44000,
         "mpg": 28,
         "electric": false,
         "segment": "suv",
@@ -8849,6 +8950,7 @@
     },
     {
         "name": "BMW X4",
+        "msrp": 45550,
         "mpg": 27,
         "electric": false,
         "segment": "suv",
@@ -8905,6 +9007,7 @@
     },
     {
         "name": "Lexus NX",
+        "msrp": 35285,
         "mpg": 31,
         "electric": false,
         "segment": "suv",
@@ -8961,6 +9064,7 @@
     },
     {
         "name": "Lincoln MKC",
+        "msrp": 32880,
         "mpg": 23,
         "electric": false,
         "segment": "suv",
@@ -9017,6 +9121,7 @@
     },
     {
         "name": "Porsche Macan",
+        "msrp": 47500,
         "mpg": 20,
         "electric": false,
         "segment": "suv",
@@ -9073,6 +9178,7 @@
     },
     {
         "name": "Jaguar F-Pace",
+        "msrp": 41990,
         "mpg": 21,
         "electric": false,
         "segment": "suv",
@@ -9129,6 +9235,7 @@
     },
     {
         "name": "Mercedes-Benz C-class",
+        "msrp": 39500,
         "mpg": 28,
         "electric": false,
         "segment": "car",
@@ -9209,6 +9316,7 @@
     },
     {
         "name": "Acura TLX",
+        "msrp": 32000,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -9289,6 +9397,7 @@
     },
     {
         "name": "Audi A4",
+        "msrp": 34900,
         "mpg": 28,
         "electric": false,
         "segment": "car",
@@ -9369,6 +9478,7 @@
     },
     {
         "name": "Lexus IS",
+        "msrp": 37825,
         "mpg": 27,
         "electric": false,
         "segment": "car",
@@ -9449,6 +9559,7 @@
     },
     {
         "name": "Volvo 60 series",
+        "msrp": 35000,
         "mpg": 29,
         "electric": false,
         "segment": "car",
@@ -9529,6 +9640,7 @@
     },
     {
         "name": "Jaguar XE",
+        "msrp": 34900,
         "mpg": 37,
         "electric": false,
         "segment": "car",
@@ -9609,6 +9721,7 @@
     },
     {
         "name": "Lincoln MKZ",
+        "msrp": 35170,
         "mpg": 23,
         "electric": false,
         "segment": "car",
@@ -9689,6 +9802,7 @@
     },
     {
         "name": "Audi A5",
+        "msrp": 41200,
         "mpg": 24,
         "electric": false,
         "segment": "car",
@@ -9769,6 +9883,7 @@
     },
     {
         "name": "Infiniti Q50",
+        "msrp": 33950,
         "mpg": 29,
         "electric": false,
         "segment": "car",
@@ -9849,6 +9964,7 @@
     },
     {
         "name": "Infiniti Q60",
+        "msrp": 38950,
         "mpg": 22,
         "electric": false,
         "segment": "car",
@@ -9929,6 +10045,7 @@
     },
     {
         "name": "Cadillac ATS",
+        "msrp": 38600,
         "mpg": 24,
         "electric": false,
         "segment": "car",
@@ -10009,6 +10126,7 @@
     },
     {
         "name": "BMW 3-series",
+        "msrp": 33450,
         "mpg": 28,
         "electric": false,
         "segment": "car",
@@ -10089,6 +10207,7 @@
     },
     {
         "name": "BMW 4-series",
+        "msrp": 41950,
         "mpg": 29,
         "electric": false,
         "segment": "car",
@@ -10169,6 +10288,7 @@
     },
     {
         "name": "Lexus RC",
+        "msrp": 41200,
         "mpg": 20,
         "electric": false,
         "segment": "car",
@@ -10249,6 +10369,7 @@
     },
     {
         "name": "Tesla Model 3",
+        "msrp": 35000,
         "mpg": 270,
         "electric": true,
         "segment": "car",
@@ -10329,6 +10450,7 @@
     },
     {
         "name": "Nissan Juke",
+        "msrp": 20250,
         "mpg": 28,
         "electric": false,
         "segment": "suv",
@@ -10385,6 +10507,7 @@
     },
     {
         "name": "Buick Encore",
+        "msrp": 22990,
         "mpg": 29,
         "electric": false,
         "segment": "suv",
@@ -10441,6 +10564,7 @@
     },
     {
         "name": "Chevrolet Trax",
+        "msrp": 21000,
         "mpg": 28,
         "electric": false,
         "segment": "suv",
@@ -10497,6 +10621,7 @@
     },
     {
         "name": "Fiat 500X",
+        "msrp": 19995,
         "mpg": 27,
         "electric": false,
         "segment": "suv",
@@ -10553,6 +10678,7 @@
     },
     {
         "name": "Honda HR-V",
+        "msrp": 19465,
         "mpg": 29,
         "electric": false,
         "segment": "suv",
@@ -10609,6 +10735,7 @@
     },
     {
         "name": "Jeep Renegade",
+        "msrp": 19325,
         "mpg": 26,
         "electric": false,
         "segment": "suv",
@@ -10665,6 +10792,7 @@
     },
     {
         "name": "Mazda CX-3",
+        "msrp": 19960,
         "mpg": 30,
         "electric": false,
         "segment": "suv",
@@ -10721,6 +10849,7 @@
     },
     {
         "name": "Toyota C-HR",
+        "msrp": 23460,
         "mpg": 29,
         "electric": false,
         "segment": "suv",
@@ -10777,6 +10906,7 @@
     },
     {
         "name": "Mitsubishi Outlander Sport",
+        "msrp": 19795,
         "mpg": 26,
         "electric": false,
         "segment": "suv",
@@ -10833,6 +10963,7 @@
     },
     {
         "name": "Buick Regal",
+        "msrp": 27065,
         "mpg": 24,
         "electric": false,
         "segment": "car",
@@ -10889,6 +11020,7 @@
     },
     {
         "name": "Chevrolet Malibu",
+        "msrp": 21680,
         "mpg": 30,
         "electric": false,
         "segment": "car",
@@ -10945,6 +11077,7 @@
     },
     {
         "name": "Chrysler 200",
+        "msrp": 22115,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -11001,6 +11134,7 @@
     },
     {
         "name": "Dodge Avenger",
+        "msrp": 19995,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -11057,6 +11191,7 @@
     },
     {
         "name": "Ford Fusion",
+        "msrp": 22610,
         "mpg": 25,
         "electric": false,
         "segment": "car",
@@ -11113,6 +11248,7 @@
     },
     {
         "name": "Honda Accord",
+        "msrp": 22455,
         "mpg": 20,
         "electric": false,
         "segment": "car",
@@ -11169,6 +11305,7 @@
     },
     {
         "name": "Honda Crosstour",
+        "msrp": 19500,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -11225,6 +11362,7 @@
     },
     {
         "name": "Hyundai Sonata",
+        "msrp": 21600,
         "mpg": 41,
         "electric": false,
         "segment": "car",
@@ -11281,6 +11419,7 @@
     },
     {
         "name": "Kia Optima",
+        "msrp": 22200,
         "mpg": 42,
         "electric": false,
         "segment": "car",
@@ -11337,6 +11476,7 @@
     },
     {
         "name": "Mazda Mazda6",
+        "msrp": 21945,
         "mpg": 29,
         "electric": false,
         "segment": "car",
@@ -11393,6 +11533,7 @@
     },
     {
         "name": "Nissan Altima",
+        "msrp": 22500,
         "mpg": 29,
         "electric": false,
         "segment": "car",
@@ -11449,6 +11590,7 @@
     },
     {
         "name": "Subaru Legacy",
+        "msrp": 21995,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -11505,6 +11647,7 @@
     },
     {
         "name": "Subaru Outback",
+        "msrp": 25645,
         "mpg": 25,
         "electric": false,
         "segment": "car",
@@ -11561,6 +11704,7 @@
     },
     {
         "name": "Toyota Camry",
+        "msrp": 23070,
         "mpg": 26,
         "electric": false,
         "segment": "car",
@@ -11617,6 +11761,7 @@
     },
     {
         "name": "Toyota Venza",
+        "msrp": 24000,
         "mpg": 23,
         "electric": false,
         "segment": "car",
@@ -11673,6 +11818,7 @@
     },
     {
         "name": "Volkswagen CC",
+        "msrp": 34475,
         "mpg": 23,
         "electric": false,
         "segment": "car",
@@ -11729,6 +11875,7 @@
     },
     {
         "name": "Volkswagen Passat",
+        "msrp": 22440,
         "mpg": 25,
         "electric": false,
         "segment": "car",
@@ -11785,6 +11932,7 @@
     },
     {
         "name": "Chevrolet Sonic",
+        "msrp": 15145,
         "mpg": 30,
         "electric": false,
         "segment": "car",
@@ -11841,6 +11989,7 @@
     },
     {
         "name": "Honda Fit",
+        "msrp": 16090,
         "mpg": 34,
         "electric": false,
         "segment": "car",
@@ -11897,6 +12046,7 @@
     },
     {
         "name": "Ford Fiesta",
+        "msrp": 13660,
         "mpg": 31,
         "electric": false,
         "segment": "car",
@@ -11953,6 +12103,7 @@
     },
     {
         "name": "Hyundai Accent",
+        "msrp": 14745,
         "mpg": 30,
         "electric": false,
         "segment": "car",
@@ -12009,6 +12160,7 @@
     },
     {
         "name": "Kia Soul",
+        "msrp": 16100,
         "mpg": 27,
         "electric": false,
         "segment": "car",
@@ -12065,6 +12217,7 @@
     },
     {
         "name": "Nissan Versa",
+        "msrp": 11990,
         "mpg": 31,
         "electric": false,
         "segment": "car",
@@ -12121,6 +12274,7 @@
     },
     {
         "name": "Toyota Yaris",
+        "msrp": 15250,
         "mpg": 32,
         "electric": false,
         "segment": "car",
@@ -12177,6 +12331,7 @@
     },
     {
         "name": "Kia Rio",
+        "msrp": 14165,
         "mpg": 31,
         "electric": false,
         "segment": "car",
@@ -12233,6 +12388,7 @@
     },
     {
         "name": "Toyota Prius C",
+        "msrp": 20150,
         "mpg": 46,
         "electric": false,
         "segment": "car",

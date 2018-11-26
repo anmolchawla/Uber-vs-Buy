@@ -54,12 +54,6 @@ export class Step1Component implements OnInit {
             var svg = d3.select("#chart1");
             var firstData = data_before.map(x => x);
             var currentData = data_before;
-            var topData = data_before.slice(0).sort(function(a, b) { 
-                return b.sales - a.sales;
-            }).slice(0,5).map(x => x);
-            var bottomData = data_before.slice(0).sort(function(a, b) { 
-                return a.sales - b.sales;
-            }).slice(0,5).map(x => x);
             var sortState = 0; //alphabetical=0, asc=1, desc=2
         
             dataChain.push(firstData);
@@ -68,17 +62,7 @@ export class Step1Component implements OnInit {
             renderBars(currentData,choiceGlobal)
         
             function renderBars(tempData,choice){
-                /*var maxVal = 0
-                if(data1[0].values[0].date.length === undefined){
-                    data1.forEach(function(d) { 
-                        var count = 1973
-                        d.values.forEach(function(d) {
-                            d.date = count;
-                            d.sales = +d.sales;  
-                            count += 1  
-                        });
-                    });
-                }*/
+
                 choiceGlobal = choice
                 var maxVal = 0
                 tempData.forEach(function(d) { 
@@ -100,7 +84,7 @@ export class Step1Component implements OnInit {
                 maxV = maxVal
                 
                 /* Remove any existing lines */
-                d3.select("#chart").selectAll("*").remove();
+                d3.select("#chart1").selectAll("*").remove();
                 d3.select(".axis-X").remove()
                 d3.select(".axis-Y").remove()
         
@@ -114,21 +98,7 @@ export class Step1Component implements OnInit {
                     .attr("class", "axis-X")
                     .attr("transform", "translate(100,100)")
                     .call(axisX);
-        
-                //setting up text
-                var title = svg.append("text")             
-                    .attr("transform","translate(565, 50)")
-                    .style("text-anchor", "middle")
-                    .text("Fertility Rates By Country in 1950");
-                svg.append("text")
-                    .attr("transform", "translate(250, 50)")
-                    .attr("dy", "1em")
-                    .style("text-anchor", "middle")
-                    .text("Fertility Rate");
-                var ylabel = svg.append("text")             
-                    .attr("transform","translate(10, 250),rotate(-90)")
-                    .style("text-anchor", "middle")
-                    .text("Country");
+
         
                 //call first state
                 update(tempData);
@@ -340,22 +310,16 @@ export class Step1Component implements OnInit {
             var dataChain = [];
             var firstChart = true;
           
-            //LEGEND
-            //var legendRectSize = 25; // defines the size of the colored squares in legend
-            //var legendSpacing = 6;
-          
             /*For adding tooltip*/
             var div = d3.select("#line_chart").append("div")	
               .attr("class", "tooltip")				
-              .style("opacity", 0);
-            
-             
+              .style("opacity", 0);            
         
             //add button reference
             var button = d3.select("#backButton")
                            .on("click", goLevelUp)
             
-            dataChain.push( data );
+            dataChain.push(data);
             renderLine(data)
         
             function goLevelUp() {
@@ -363,16 +327,9 @@ export class Step1Component implements OnInit {
                     return false;
                 }
                 inLevel = inLevel-1;
-                //console.log("PRE-DATACHAIN")
-                //console.log(dataChain)
                 dataChain.splice(dataChain.length - 1, 1);
-                //console.log("POST-DATACHAIN")
-                //console.log(dataChain)
                 var prev = dataChain[dataChain.length - 1];
                 renderLine(prev);
-                if(inLevel === 1)
-                    //console.log("here")  
-                //self.navigation.hide();
                 return false;
             };
         
@@ -446,7 +403,6 @@ export class Step1Component implements OnInit {
                 var lines = svg.append('g')
                     .attr('class', 'lines');
 
-
                 var flag = 0;
                 var button = d3.select("#top").append("div")
                     .append("button")	
@@ -464,7 +420,7 @@ export class Step1Component implements OnInit {
                         lines.selectAll(".circle").transition().style("opacity",100);
                     }
                     } 
-                    );
+                );
                 
                 lines.selectAll('.line-group')
                     .data(data1).enter()
@@ -478,8 +434,8 @@ export class Step1Component implements OnInit {
                             .style("background","yellow");
                         
                         div.html(d.name)	
-                            .style("left", (d3.event.pageX) + "px")		
-                            .style("top", (d3.event.pageY - 28) + "px");
+                            .style("left", (d3.mouse(this)[0]+20) + "px")		
+                            .style("top", (d3.mouse(this)[1] + 300) + "px");
                     })
                     .on("mouseout", function(d) {
                         div.transition()			
@@ -495,18 +451,18 @@ export class Step1Component implements OnInit {
                     .attr('fill','none')
                     .on("mouseover", function(d) {
                         d3.selectAll('.line')
-                                    .style('opacity', otherLinesOpacityHover);
+                            .style('opacity', otherLinesOpacityHover);
                         d3.select(this)
-                        .style('opacity', lineOpacityHover)
-                        .style("stroke-width", lineStrokeHover)
-                        .style("cursor", "pointer");
+                            .style('opacity', lineOpacityHover)
+                            .style("stroke-width", lineStrokeHover)
+                            .style("cursor", "pointer");
                     })
                     .on("mouseout", function(d) {
                         d3.selectAll(".line")
-                                    .style('opacity', lineOpacity);
+                            .style('opacity', lineOpacity);
                         d3.select(this)
-                        .style("stroke-width", lineStroke)
-                        .style("cursor", "none");
+                            .style("stroke-width", lineStroke)
+                            .style("cursor", "none");
                     })
                     .on('click', lineClick);
                 
@@ -524,8 +480,8 @@ export class Step1Component implements OnInit {
                         div.transition()				
                             .style("opacity", .8);
                         div.html(d.date.getFullYear()+":"+ "<br/>"  + d.sales)	
-                            .style("left", (d3.event.pageX) + "px")		
-                            .style("top", (d3.event.pageY - 60) + "px")
+                            .style("left", (d3.mouse(this)[0]) + "px")		
+                            .style("top", (d3.mouse(this)[1] + 300) + "px")
                             .style("padding","2px")
                             .style("font-size","15px")
                             .style("background","yellow");
@@ -577,32 +533,6 @@ export class Step1Component implements OnInit {
                     .attr("transform","")
                     .attr("fill", "#000")
                     .text("salesility Rate");
-        
-                    /*var legend = svg.selectAll('.legend') 
-                        .data(data1) 
-                        .enter() 
-                        .append('g')
-                        .attr('class', 'legend') 
-                        .attr('transform', function(d, i) {                 
-                        var height = legendRectSize + legendSpacing;     
-                        var offset =  -30; 
-                        var horz = width + 10; 
-                        var vert = i * height - offset;               
-                        return 'translate(' + horz + ',' + vert + ')';        
-                        });
-                    legend.append('rect')                                  
-                        .attr('width', legendRectSize)                        
-                        .attr('height', legendRectSize)                      
-                        .style("fill", function(d,i) { return color(i); })
-                        .style('stroke', function(d,i) { return color(i); })
-                    // adding text to legend
-                    legend.append('text')                                    
-                        .attr('x', legendRectSize + legendSpacing)
-                        .attr('y', legendRectSize - legendSpacing)
-                        .text(function(d) { return d.name; });
-        
-                    //console.log("AFTER RENDER CHAIN")
-                    //console.log(dataChain)*/
                 }
             });
         
@@ -651,13 +581,19 @@ export class Step1Component implements OnInit {
                 .attr('class', 'focus-group');
             var nameLabel = focusGroup.append('g')
                 .attr('class', 'arc-percent')
+                .style("text-anchor", "middle")
+                .style("font-size", "42px")
                 .append("text")
                 .attr("dy", "-1.2em");
             var percentLabel = focusGroup.append('g')
                 .attr('class', 'arc-percent')
+                .style("text-anchor", "middle")
+                .style("font-size", "24px")
                 .append("text");
             var costLabel = focusGroup.append('g')
-                .attr('class', 'arc-cost')
+                .attr('class', 'arc-percent')
+                .style("text-anchor", "middle")
+                .style("font-size", "20px")
                 .append("text")
                 .attr("dy", "1.2em");
         
@@ -705,8 +641,12 @@ export class Step1Component implements OnInit {
                 var hovered = d3.select(this);
                 var percentage = (((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100).toFixed(1);
                 nameLabel.text(d.data.category);
-                percentLabel.text(percentage + '%');
-                costLabel.text(d.data.cost);
+                if(inLevel == 1){
+                    percentLabel.text("Market Share: " + percentage + '%');
+                } else{
+                    percentLabel.text("% of company sales: " + percentage + '%');
+                }
+                costLabel.text("Total Sales: " + Number(d.data.cost).toLocaleString());
                 focusGroup.transition().attr('opacity', 1);
                 hovered.transition()
                     //.ease("easeInOutQuart")
