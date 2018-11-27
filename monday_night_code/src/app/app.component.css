@@ -1,0 +1,16 @@
+h1 {
+    text-align:center
+}
+
+mat-drawer-content {
+    padding: 20px;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+.header-background {
+    padding: 50px;
+    background-color: lightblue;
+}
