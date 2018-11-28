@@ -1,0 +1,1627 @@
+[
+    {
+    "sales": 5679465,
+    "cost": "3526865",
+    "mpg": 2880,
+    "category": "car",
+    "id_category": "0",
+    "categories": [
+        {
+            "sales": 2472915,
+            "cost": 847285,
+            "mpg": 879,
+            "category": "compact",
+            "id_category": "1",
+            "categories": [
+                {
+                    "sales": 377286,
+                    "cost": 18740,
+                    "mpg": 34,
+                    "category": "Honda Civic",
+                    "id_category": "2"
+                },
+                {
+                    "sales": 308695,
+                    "cost": 18500,
+                    "mpg": 32,
+                    "category": "Toyota Corolla",
+                    "id_category": "3"
+                },
+                {
+                    "sales": 218451,
+                    "cost": 16990,
+                    "mpg": 32,
+                    "category": "Nissan Sentra",
+                    "id_category": "4"
+                },
+                {
+                    "sales": 198210,
+                    "cost": 17150,
+                    "mpg": 35,
+                    "category": "Hyundai Elantra",
+                    "id_category": "5"
+                },
+                {
+                    "sales": 184751,
+                    "cost": 16975,
+                    "mpg": 34,
+                    "category": "Chevrolet Cruze",
+                    "id_category": "6"
+                },
+                {
+                    "sales": 158385,
+                    "cost": 16775,
+                    "mpg": 31,
+                    "category": "Ford Focus",
+                    "id_category": "7"
+                },
+                {
+                    "sales": 117596,
+                    "cost": 16600,
+                    "mpg": 32,
+                    "category": "Kia Forte",
+                    "id_category": "8"
+                },
+                {
+                    "sales": 75018,
+                    "cost": 17845,
+                    "mpg": 31,
+                    "category": "Mazda Mazda3",
+                    "id_category": "9"
+                },
+                {
+                    "sales": 203444,
+                    "cost": 18395,
+                    "mpg": 32,
+                    "category": "Subaru Impreza",
+                    "id_category": "10"
+                },
+                {
+                    "sales": 115807,
+                    "cost": 17895,
+                    "mpg": 32,
+                    "category": "Volkswagon Jetta",
+                    "id_category": "11"
+                },
+                {
+                    "sales": 68978,
+                    "cost": 19895,
+                    "mpg": 28,
+                    "category": "Volkswagon Golf",
+                    "id_category": "12"
+                },
+                {
+                    "sales": 108661,
+                    "cost": 23475,
+                    "mpg": 41,
+                    "category": "Toyota Prius",
+                    "id_category": "13"
+                },
+                {
+                    "sales": 27237,
+                    "cost": 22890,
+                    "mpg": 43,
+                    "category": "Kia Niro",
+                    "id_category": "14"
+                },
+                {
+                    "sales": 11197,
+                    "cost": 22200,
+                    "mpg": 55,
+                    "category": "Hyundai Ioniq",
+                    "id_category": "15"
+                },
+                {
+                    "sales": 15166,
+                    "cost": 19995,
+                    "mpg": 28,
+                    "category": "Volkwagon Beetle",
+                    "id_category": "16"
+                },
+                {
+                    "sales": 23297,
+                    "cost": 36620,
+                    "mpg": 0,
+                    "category": "Chevrolet Bolt",
+                    "id_category": "17"
+                },
+                {
+                    "sales": 20349,
+                    "cost": 33220,
+                    "mpg": 42,
+                    "category": "Chevrolet Volt",
+                    "id_category": "18"
+                },
+                {
+                    "sales": 11230,
+                    "cost": 30680,
+                    "mpg": 0,
+                    "category": "Nissan Leaf",
+                    "id_category": "19"
+                },
+                {
+                    "sales": 12725,
+                    "cost": 17795,
+                    "mpg": 30,
+                    "category": "Mitsubishi Lancer",
+                    "id_category": "20"
+                },
+                {
+                    "sales": 1838,
+                    "cost": 57500,
+                    "mpg": 0,
+                    "category": "Toyota Mirai",
+                    "id_category": "21"
+                },
+                {
+                    "sales": 10082,
+                    "cost": 17700,
+                    "mpg": 28,
+                    "category": "Dodge Dart",
+                    "id_category": "22"
+                },
+                {
+                    "sales": 4277,
+                    "cost": 21065,
+                    "mpg": 24,
+                    "category": "Buick Verano",
+                    "id_category": "23"
+                },
+                {
+                    "sales": 744,
+                    "cost": 39900,
+                    "mpg": 0,
+                    "category": "Mercedes-Benz B-Class",
+                    "id_category": "24"
+                },
+                {
+                    "sales": 112996,
+                    "cost": 20000,
+                    "mpg": 22,
+                    "category": "Chevrolet Colorado",
+                    "id_category": "28"
+                },
+                {
+                    "sales": 23610,
+                    "cost": 31200,
+                    "mpg": 29,
+                    "category": "Audi A3",
+                    "id_category": "93"
+                },
+                {
+                    "sales": 7739,
+                    "cost": 24100,
+                    "mpg": 27,
+                    "category": "Mini Clubman",
+                    "id_category": "94"
+                },
+                {
+                    "sales": 4690,
+                    "cost": 31250,
+                    "mpg": 41,
+                    "category": "Lexus CT",
+                    "id_category": "95"
+                },
+                {
+                    "sales": 11757,
+                    "cost": 27990,
+                    "mpg": 29,
+                    "category": "Acura ILX",
+                    "id_category": "96"
+                },
+                {
+                    "sales": 17,
+                    "cost": 65995,
+                    "mpg": 33,
+                    "category": "Cadillac ELR",
+                    "id_category": "97"
+                },
+                {
+                    "sales": 20669,
+                    "cost": 32400,
+                    "mpg": 26,
+                    "category": "Mercedes-Benz CLA",
+                    "id_category": "98"
+                },
+                {
+                    "sales": 11737,
+                    "cost": 33150,
+                    "mpg": 28,
+                    "category": "BMW 2-series",
+                    "id_category": "99"
+                },
+                {
+                    "sales": 6276,
+                    "cost": 42400,
+                    "mpg": 0,
+                    "category": "BMW i3",
+                    "id_category": "100"
+                }
+            ]
+        },
+        {
+            "sales": 675893,
+            "cost": 1514710,
+            "mpg": 740,
+            "category": "large",
+            "id_category": "55",
+            "categories": [
+                {
+                    "sales": 20161,
+                    "cost": 32065,
+                    "mpg": 25,
+                    "category": "Buick LaCrosse",
+                    "id_category": "56"
+                },
+                {
+                    "sales": 693,
+                    "cost": 32965,
+                    "mpg": 23,
+                    "category": "Chevrolet Caprice",
+                    "id_category": "57"
+                },
+                {
+                    "sales": 75877,
+                    "cost": 27500,
+                    "mpg": 24,
+                    "category": "Chevrolet Impala",
+                    "id_category": "58"
+                },
+                {
+                    "sales": 4055,
+                    "cost": 46625,
+                    "mpg": 16,
+                    "category": "Chevrolet SS",
+                    "id_category": "59"
+                },
+                {
+                    "sales": 51237,
+                    "cost": 35675,
+                    "mpg": 22,
+                    "category": "Chrysler 300",
+                    "id_category": "60"
+                },
+                {
+                    "sales": 88351,
+                    "cost": 27995,
+                    "mpg": 21,
+                    "category": "Dodge Charger",
+                    "id_category": "61"
+                },
+                {
+                    "sales": 41236,
+                    "cost": 27345,
+                    "mpg": 21,
+                    "category": "Ford Taurus",
+                    "id_category": "62"
+                },
+                {
+                    "sales": 3060,
+                    "cost": 34100,
+                    "mpg": 23,
+                    "category": "Hyundai Azera",
+                    "id_category": "63"
+                },
+                {
+                    "sales": 7249,
+                    "cost": 31990,
+                    "mpg": 23,
+                    "category": "Kia Cadenza",
+                    "id_category": "64"
+                },
+                {
+                    "sales": 67627,
+                    "cost": 32610,
+                    "mpg": 25,
+                    "category": "Nissan Maxima",
+                    "id_category": "65"
+                },
+                {
+                    "sales": 32583,
+                    "cost": 33300,
+                    "mpg": 24,
+                    "category": "Toyota Avalon",
+                    "id_category": "66"
+                },
+                {
+                    "sales": 40658,
+                    "cost": 51200,
+                    "mpg": 31,
+                    "category": "BMW 5-series",
+                    "id_category": "106"
+                },
+                {
+                    "sales": 3355,
+                    "cost": 77600,
+                    "mpg": 24,
+                    "category": "BMW 6-series",
+                    "id_category": "107"
+                },
+                {
+                    "sales": 49427,
+                    "cost": 52150,
+                    "mpg": 25,
+                    "category": "Mercedes-Benz E-Class",
+                    "id_category": "108"
+                },
+                {
+                    "sales": 12165,
+                    "cost": 44720,
+                    "mpg": 15,
+                    "category": "Lincoln Continental",
+                    "id_category": "109"
+                },
+                {
+                    "sales": 5772,
+                    "cost": 50100,
+                    "mpg": 20,
+                    "category": "Infiniti Q70",
+                    "id_category": "110"
+                },
+                {
+                    "sales": 51398,
+                    "cost": 38900,
+                    "mpg": 43,
+                    "category": "Lexus ES",
+                    "id_category": "111"
+                },
+                {
+                    "sales": 7773,
+                    "cost": 46310,
+                    "mpg": 27,
+                    "category": "Lexus GS",
+                    "id_category": "112"
+                },
+                {
+                    "sales": 16304,
+                    "cost": 47600,
+                    "mpg": 26,
+                    "category": "Audi A6",
+                    "id_category": "113"
+                },
+                {
+                    "sales": 1237,
+                    "cost": 54450,
+                    "mpg": 26,
+                    "category": "Acura RLX",
+                    "id_category": "114"
+                },
+                {
+                    "sales": 80,
+                    "cost": 54670,
+                    "mpg": 32,
+                    "category": "Volvo 70/80 series",
+                    "id_category": "115"
+                },
+                {
+                    "sales": 8641,
+                    "cost": 46950,
+                    "mpg": 26,
+                    "category": "Volvo S90",
+                    "id_category": "116"
+                },
+                {
+                    "sales": 4541,
+                    "cost": 48250,
+                    "mpg": 28,
+                    "category": "Jaguar XF",
+                    "id_category": "117"
+                },
+                {
+                    "sales": 10344,
+                    "cost": 45995,
+                    "mpg": 24,
+                    "category": "Cadillac CTS",
+                    "id_category": "118"
+                },
+                {
+                    "sales": 1885,
+                    "cost": 74850,
+                    "mpg": 18,
+                    "category": "Mercedes-Benz CLS-class",
+                    "id_category": "119"
+                },
+                {
+                    "sales": 79,
+                    "cost": 68100,
+                    "mpg": 20,
+                    "category": "Hyundai Genesis Sedan",
+                    "id_category": "120"
+                },
+                {
+                    "sales": 4810,
+                    "cost": 68800,
+                    "mpg": 24,
+                    "category": "Audi A7",
+                    "id_category": "121"
+                },
+                {
+                    "sales": 16275,
+                    "cost": 45595,
+                    "mpg": 20,
+                    "category": "Cadillac XTS",
+                    "id_category": "122"
+                },
+                {
+                    "sales": 27060,
+                    "cost": 68000,
+                    "mpg": 0,
+                    "category": "Tesla Model S",
+                    "id_category": "123"
+                },
+                {
+                    "sales": 5563,
+                    "cost": 71600,
+                    "mpg": 19,
+                    "category": "Maserati Ghibli",
+                    "id_category": "124"
+                },
+                {
+                    "sales": 16214,
+                    "cost": 41400,
+                    "mpg": 20,
+                    "category": "Genesis G80",
+                    "id_category": "125"
+                },
+                {
+                    "sales": 183,
+                    "cost": 55300,
+                    "mpg": 25,
+                    "category": "Volvo V90",
+                    "id_category": "126"
+                }
+            ]
+        },
+        {
+            "sales": 121640,
+            "cost": 78690,
+            "mpg": 129,
+            "category": "mini",
+            "id_category": "87",
+            "categories": [
+                {
+                    "sales": 22386,
+                    "cost": 12995,
+                    "mpg": 37,
+                    "category": "Mitsubishi Mirage",
+                    "id_category": "88"
+                },
+                {
+                    "sales": 47102,
+                    "cost": 20950,
+                    "mpg": 26,
+                    "category": "Mini Cooper",
+                    "id_category": "89"
+                },
+                {
+                    "sales": 22589,
+                    "cost": 13000,
+                    "mpg": 0,
+                    "category": "Chevrolet Spark",
+                    "id_category": "90"
+                },
+                {
+                    "sales": 26492,
+                    "cost": 16245,
+                    "mpg": 26,
+                    "category": "Fiat 500",
+                    "id_category": "91"
+                },
+                {
+                    "sales": 3071,
+                    "cost": 15500,
+                    "mpg": 40,
+                    "category": "Smart",
+                    "id_category": "92"
+                }
+            ]
+        },
+        {
+            "sales": 1963757,
+            "cost": 948885,
+            "mpg": 840,
+            "category": "midsized",
+            "id_category": "175",
+            "categories": [
+                {
+                    "sales": 0,
+                    "cost": 39500,
+                    "mpg": 28,
+                    "category": "Mercedes-Benz C-class",
+                    "id_category": "176"
+                },
+                {
+                    "sales": 0,
+                    "cost": 32000,
+                    "mpg": 26,
+                    "category": "Acura TLX",
+                    "id_category": "177"
+                },
+                {
+                    "sales": 0,
+                    "cost": 34900,
+                    "mpg": 28,
+                    "category": "Audi A4",
+                    "id_category": "178"
+                },
+                {
+                    "sales": 0,
+                    "cost": 37825,
+                    "mpg": 27,
+                    "category": "Lexus IS",
+                    "id_category": "179"
+                },
+                {
+                    "sales": 0,
+                    "cost": 35000,
+                    "mpg": 29,
+                    "category": "Volvo 60 series",
+                    "id_category": "180"
+                },
+                {
+                    "sales": 0,
+                    "cost": 34900,
+                    "mpg": 37,
+                    "category": "Jaguar XE",
+                    "id_category": "181"
+                },
+                {
+                    "sales": 0,
+                    "cost": 35170,
+                    "mpg": 23,
+                    "category": "Lincoln MKZ",
+                    "id_category": "182"
+                },
+                {
+                    "sales": 0,
+                    "cost": 41200,
+                    "mpg": 24,
+                    "category": "Audi A5",
+                    "id_category": "183"
+                },
+                {
+                    "sales": 0,
+                    "cost": 33950,
+                    "mpg": 29,
+                    "category": "Infiniti Q50",
+                    "id_category": "184"
+                },
+                {
+                    "sales": 0,
+                    "cost": 38950,
+                    "mpg": 22,
+                    "category": "Infiniti Q60",
+                    "id_category": "185"
+                },
+                {
+                    "sales": 0,
+                    "cost": 38600,
+                    "mpg": 24,
+                    "category": "Cadillac ATS",
+                    "id_category": "186"
+                },
+                {
+                    "sales": 0,
+                    "cost": 33450,
+                    "mpg": 28,
+                    "category": "BMW 3-series",
+                    "id_category": "187"
+                },
+                {
+                    "sales": 0,
+                    "cost": 41950,
+                    "mpg": 29,
+                    "category": "BMW 4-series",
+                    "id_category": "188"
+                },
+                {
+                    "sales": 0,
+                    "cost": 41200,
+                    "mpg": 20,
+                    "category": "Lexus RC",
+                    "id_category": "189"
+                },
+                {
+                    "sales": 0,
+                    "cost": 35000,
+                    "mpg": 0,
+                    "category": "Tesla Model 3",
+                    "id_category": "190"
+                },
+                {
+                    "sales": 11559,
+                    "cost": 27065,
+                    "mpg": 24,
+                    "category": "Buick Regal",
+                    "id_category": "201"
+                },
+                {
+                    "sales": 185857,
+                    "cost": 21680,
+                    "mpg": 30,
+                    "category": "Chevrolet Malibu",
+                    "id_category": "202"
+                },
+                {
+                    "sales": 18457,
+                    "cost": 22115,
+                    "mpg": 26,
+                    "category": "Chrysler 200",
+                    "id_category": "203"
+                },
+                {
+                    "sales": 12,
+                    "cost": 19995,
+                    "mpg": 26,
+                    "category": "Dodge Avenger",
+                    "id_category": "204"
+                },
+                {
+                    "sales": 209623,
+                    "cost": 22610,
+                    "mpg": 25,
+                    "category": "Ford Fusion",
+                    "id_category": "205"
+                },
+                {
+                    "sales": 322655,
+                    "cost": 22455,
+                    "mpg": 20,
+                    "category": "Honda Accord",
+                    "id_category": "206"
+                },
+                {
+                    "sales": 5,
+                    "cost": 19500,
+                    "mpg": 26,
+                    "category": "Honda Crosstour",
+                    "id_category": "207"
+                },
+                {
+                    "sales": 131803,
+                    "cost": 21600,
+                    "mpg": 41,
+                    "category": "Hyundai Sonata",
+                    "id_category": "208"
+                },
+                {
+                    "sales": 107493,
+                    "cost": 22200,
+                    "mpg": 42,
+                    "category": "Kia Optima",
+                    "id_category": "209"
+                },
+                {
+                    "sales": 33402,
+                    "cost": 21945,
+                    "mpg": 29,
+                    "category": "Mazda Mazda6",
+                    "id_category": "210"
+                },
+                {
+                    "sales": 254996,
+                    "cost": 22500,
+                    "mpg": 29,
+                    "category": "Nissan Altima",
+                    "id_category": "211"
+                },
+                {
+                    "sales": 49837,
+                    "cost": 21995,
+                    "mpg": 26,
+                    "category": "Subaru Legacy",
+                    "id_category": "212"
+                },
+                {
+                    "sales": 188886,
+                    "cost": 25645,
+                    "mpg": 25,
+                    "category": "Subaru Outback",
+                    "id_category": "213"
+                },
+                {
+                    "sales": 387081,
+                    "cost": 23070,
+                    "mpg": 26,
+                    "category": "Toyota Camry",
+                    "id_category": "214"
+                },
+                {
+                    "sales": 14,
+                    "cost": 24000,
+                    "mpg": 23,
+                    "category": "Toyota Venza",
+                    "id_category": "215"
+                },
+                {
+                    "sales": 1355,
+                    "cost": 34475,
+                    "mpg": 23,
+                    "category": "Volkswagen CC",
+                    "id_category": "216"
+                },
+                {
+                    "sales": 60722,
+                    "cost": 22440,
+                    "mpg": 25,
+                    "category": "Volkswagen Passat",
+                    "id_category": "217"
+                }
+            ]
+        },
+        {
+            "sales": 445260,
+            "cost": 137295,
+            "mpg": 292,
+            "category": "subcompact",
+            "id_category": "218",
+            "categories": [
+                {
+                    "sales": 30290,
+                    "cost": 15145,
+                    "mpg": 30,
+                    "category": "Chevrolet Sonic",
+                    "id_category": "219"
+                },
+                {
+                    "sales": 49454,
+                    "cost": 16090,
+                    "mpg": 34,
+                    "category": "Honda Fit",
+                    "id_category": "220"
+                },
+                {
+                    "sales": 46249,
+                    "cost": 13660,
+                    "mpg": 31,
+                    "category": "Ford Fiesta",
+                    "id_category": "221"
+                },
+                {
+                    "sales": 58955,
+                    "cost": 14745,
+                    "mpg": 30,
+                    "category": "Hyundai Accent",
+                    "id_category": "222"
+                },
+                {
+                    "sales": 115712,
+                    "cost": 16100,
+                    "mpg": 27,
+                    "category": "Kia Soul",
+                    "id_category": "223"
+                },
+                {
+                    "sales": 106772,
+                    "cost": 11990,
+                    "mpg": 31,
+                    "category": "Nissan Versa",
+                    "id_category": "224"
+                },
+                {
+                    "sales": 8653,
+                    "cost": 15250,
+                    "mpg": 32,
+                    "category": "Toyota Yaris",
+                    "id_category": "225"
+                },
+                {
+                    "sales": 16760,
+                    "cost": 14165,
+                    "mpg": 31,
+                    "category": "Kia Rio",
+                    "id_category": "226"
+                },
+                {
+                    "sales": 12415,
+                    "cost": 20150,
+                    "mpg": 46,
+                    "category": "Toyota Prius C",
+                    "id_category": "227"
+                }
+            ]
+        }
+    ]
+},{
+    "sales": 2709842,
+    "cost": "262820",
+    "mpg": 190,
+    "category": "truck",
+    "id_category": "25",
+    "categories": [
+        {
+            "sales": 339339,
+            "cost": 93325,
+            "mpg": 81,
+            "category": "compact",
+            "id_category": "26",
+            "categories": [
+                {
+                    "sales": 32106,
+                    "cost": 20885,
+                    "mpg": 22,
+                    "category": "GMC Canyon",
+                    "id_category": "27"
+                },
+                {
+                    "sales": 74360,
+                    "cost": 18390,
+                    "mpg": 18,
+                    "category": "Nissan Frontier",
+                    "id_category": "29"
+                },
+                {
+                    "sales": 198124,
+                    "cost": 24575,
+                    "mpg": 20,
+                    "category": "Toyota Tacoma",
+                    "id_category": "30"
+                },
+                {
+                    "sales": 34749,
+                    "cost": 29475,
+                    "mpg": 21,
+                    "category": "Honda Ridgeline",
+                    "id_category": "31"
+                }
+            ]
+        },
+        {
+            "sales": 2370503,
+            "cost": 169495,
+            "mpg": 109,
+            "category": "large",
+            "id_category": "136",
+            "categories": [
+                {
+                    "sales": 500723,
+                    "cost": 26495,
+                    "mpg": 20,
+                    "category": "Ram Pickup",
+                    "id_category": "137"
+                },
+                {
+                    "sales": 585864,
+                    "cost": 27785,
+                    "mpg": 18,
+                    "category": "Chevrolet Silverado",
+                    "id_category": "138"
+                },
+                {
+                    "sales": 896764,
+                    "cost": 27110,
+                    "mpg": 19,
+                    "category": "Ford F-series",
+                    "id_category": "139"
+                },
+                {
+                    "sales": 217943,
+                    "cost": 28405,
+                    "mpg": 18,
+                    "category": "GMC Sierra",
+                    "id_category": "140"
+                },
+                {
+                    "sales": 116285,
+                    "cost": 30120,
+                    "mpg": 16,
+                    "category": "Toyota Tundra",
+                    "id_category": "141"
+                },
+                {
+                    "sales": 52924,
+                    "cost": 29580,
+                    "mpg": 18,
+                    "category": "Nissan Titan",
+                    "id_category": "142"
+                }
+            ]
+        }
+    ]
+},{
+    "sales": 6609855,
+    "cost": "3086035",
+    "mpg": 1897,
+    "category": "suv",
+    "id_category": "32",
+    "categories": [
+        {
+            "sales": 3240080,
+            "cost": 676365,
+            "mpg": 649,
+            "category": "compact",
+            "id_category": "33",
+            "categories": [
+                {
+                    "sales": 169882,
+                    "cost": 23695,
+                    "mpg": 25,
+                    "category": "Jeep Cherokee",
+                    "id_category": "34"
+                },
+                {
+                    "sales": 190522,
+                    "cost": 23995,
+                    "mpg": 18,
+                    "category": "Jeep Wrangler",
+                    "id_category": "35"
+                },
+                {
+                    "sales": 72824,
+                    "cost": 23200,
+                    "mpg": 22,
+                    "category": "Kia Sportage",
+                    "id_category": "36"
+                },
+                {
+                    "sales": 407594,
+                    "cost": 24410,
+                    "mpg": 25,
+                    "category": "Toyota RAV4",
+                    "id_category": "37"
+                },
+                {
+                    "sales": 377895,
+                    "cost": 24045,
+                    "mpg": 29,
+                    "category": "Honda CR-V",
+                    "id_category": "38"
+                },
+                {
+                    "sales": 177563,
+                    "cost": 22595,
+                    "mpg": 26,
+                    "category": "Subaru Forester",
+                    "id_category": "39"
+                },
+                {
+                    "sales": 1,
+                    "cost": 27200,
+                    "mpg": 19,
+                    "category": "Nissan Xterra",
+                    "id_category": "40"
+                },
+                {
+                    "sales": 308296,
+                    "cost": 23750,
+                    "mpg": 26,
+                    "category": "Ford Escape",
+                    "id_category": "41"
+                },
+                {
+                    "sales": 35409,
+                    "cost": 23495,
+                    "mpg": 27,
+                    "category": "Mitsubishi Outlander",
+                    "id_category": "42"
+                },
+                {
+                    "sales": 290458,
+                    "cost": 23100,
+                    "mpg": 23,
+                    "category": "Chevrolet Equinox",
+                    "id_category": "43"
+                },
+                {
+                    "sales": 114735,
+                    "cost": 22700,
+                    "mpg": 24,
+                    "category": "Hyundai Tucson",
+                    "id_category": "44"
+                },
+                {
+                    "sales": 83253,
+                    "cost": 19940,
+                    "mpg": 22,
+                    "category": "Jeep Compass",
+                    "id_category": "45"
+                },
+                {
+                    "sales": 4,
+                    "cost": 43340,
+                    "mpg": 18,
+                    "category": "Toyota FJ Cruiser",
+                    "id_category": "46"
+                },
+                {
+                    "sales": 40735,
+                    "cost": 18040,
+                    "mpg": 24,
+                    "category": "Jeep Patriot",
+                    "id_category": "47"
+                },
+                {
+                    "sales": 403465,
+                    "cost": 23820,
+                    "mpg": 31,
+                    "category": "Nissan Rogue",
+                    "id_category": "48"
+                },
+                {
+                    "sales": 89470,
+                    "cost": 21195,
+                    "mpg": 19,
+                    "category": "Dodge Journey",
+                    "id_category": "49"
+                },
+                {
+                    "sales": 25960,
+                    "cost": 24995,
+                    "mpg": 21,
+                    "category": "Volkswagen Tiguan",
+                    "id_category": "50"
+                },
+                {
+                    "sales": 85441,
+                    "cost": 24070,
+                    "mpg": 24,
+                    "category": "GMC Terrain",
+                    "id_category": "51"
+                },
+                {
+                    "sales": 127563,
+                    "cost": 24045,
+                    "mpg": 26,
+                    "category": "Mazda CX-5",
+                    "id_category": "52"
+                },
+                {
+                    "sales": 110138,
+                    "cost": 21695,
+                    "mpg": 27,
+                    "category": "Subaru Crosstrek",
+                    "id_category": "53"
+                },
+                {
+                    "sales": 27237,
+                    "cost": 22890,
+                    "mpg": 49,
+                    "category": "Kia Niro",
+                    "id_category": "54"
+                },
+                {
+                    "sales": 30826,
+                    "cost": 33750,
+                    "mpg": 26,
+                    "category": "BMW X1",
+                    "id_category": "101"
+                },
+                {
+                    "sales": 24104,
+                    "cost": 32850,
+                    "mpg": 25,
+                    "category": "Mercedes-Benz GLA",
+                    "id_category": "102"
+                },
+                {
+                    "sales": 20633,
+                    "cost": 31800,
+                    "mpg": 23,
+                    "category": "Audi Q3",
+                    "id_category": "103"
+                },
+                {
+                    "sales": 14093,
+                    "cost": 29950,
+                    "mpg": 26,
+                    "category": "Infiniti QX30",
+                    "id_category": "104"
+                },
+                {
+                    "sales": 11979,
+                    "cost": 41800,
+                    "mpg": 24,
+                    "category": "Range Rover Evoque",
+                    "id_category": "105"
+                }
+            ]
+        },
+        {
+            "sales": 2443959,
+            "cost": 1162045,
+            "mpg": 727,
+            "category": "midsized",
+            "id_category": "67",
+            "categories": [
+                {
+                    "sales": 128296,
+                    "cost": 34210,
+                    "mpg": 18,
+                    "category": "Toyota 4Runner",
+                    "id_category": "68"
+                },
+                {
+                    "sales": 81065,
+                    "cost": 30290,
+                    "mpg": 23,
+                    "category": "Nissan Pathfinder",
+                    "id_category": "69"
+                },
+                {
+                    "sales": 271131,
+                    "cost": 31660,
+                    "mpg": 21,
+                    "category": "Ford Explorer",
+                    "id_category": "70"
+                },
+                {
+                    "sales": 240696,
+                    "cost": 30395,
+                    "mpg": 21,
+                    "category": "Jeep Grand Cherokee",
+                    "id_category": "71"
+                },
+                {
+                    "sales": 68761,
+                    "cost": 29995,
+                    "mpg": 19,
+                    "category": "Dodge Durango",
+                    "id_category": "72"
+                },
+                {
+                    "sales": 133171,
+                    "cost": 30800,
+                    "mpg": 23,
+                    "category": "Hyundai Santa Fe",
+                    "id_category": "73"
+                },
+                {
+                    "sales": 215775,
+                    "cost": 30630,
+                    "mpg": 22,
+                    "category": "Toyota Highlander",
+                    "id_category": "74"
+                },
+                {
+                    "sales": 127279,
+                    "cost": 30745,
+                    "mpg": 21,
+                    "category": "Honda Pilot",
+                    "id_category": "75"
+                },
+                {
+                    "sales": 99684,
+                    "cost": 25600,
+                    "mpg": 21,
+                    "category": "Kia Sorento",
+                    "id_category": "76"
+                },
+                {
+                    "sales": 76732,
+                    "cost": 29740,
+                    "mpg": 24,
+                    "category": "Nissan Murano",
+                    "id_category": "77"
+                },
+                {
+                    "sales": 3545,
+                    "cost": 49495,
+                    "mpg": 19,
+                    "category": "Volkswagen Touareg",
+                    "id_category": "78"
+                },
+                {
+                    "sales": 142603,
+                    "cost": 28950,
+                    "mpg": 23,
+                    "category": "Ford Edge",
+                    "id_category": "79"
+                },
+                {
+                    "sales": 111276,
+                    "cost": 29070,
+                    "mpg": 22,
+                    "category": "GMC Acadia",
+                    "id_category": "80"
+                },
+                {
+                    "sales": 48564,
+                    "cost": 39065,
+                    "mpg": 17,
+                    "category": "Buick Enclave",
+                    "id_category": "81"
+                },
+                {
+                    "sales": 25828,
+                    "cost": 31520,
+                    "mpg": 24,
+                    "category": "Mazda CX-9",
+                    "id_category": "82"
+                },
+                {
+                    "sales": 123506,
+                    "cost": 28700,
+                    "mpg": 18,
+                    "category": "Chevrolet Traverse",
+                    "id_category": "83"
+                },
+                {
+                    "sales": 22389,
+                    "cost": 30025,
+                    "mpg": 19,
+                    "category": "Ford Flex",
+                    "id_category": "84"
+                },
+                {
+                    "sales": 41040,
+                    "cost": 34065,
+                    "mpg": 25,
+                    "category": "Buick Envision",
+                    "id_category": "85"
+                },
+                {
+                    "sales": 27119,
+                    "cost": 31425,
+                    "mpg": 24,
+                    "category": "Volkswagen Atlas",
+                    "id_category": "86"
+                },
+                {
+                    "sales": 14187,
+                    "cost": 37695,
+                    "mpg": 22,
+                    "category": "Land Rover Discovery Sport",
+                    "id_category": "161"
+                },
+                {
+                    "sales": 68468,
+                    "cost": 39395,
+                    "mpg": 22,
+                    "category": "Cadillac XT5",
+                    "id_category": "162"
+                },
+                {
+                    "sales": 40691,
+                    "cost": 40050,
+                    "mpg": 22,
+                    "category": "BMW X3",
+                    "id_category": "163"
+                },
+                {
+                    "sales": 51295,
+                    "cost": 35670,
+                    "mpg": 23,
+                    "category": "Acura RDX",
+                    "id_category": "164"
+                },
+                {
+                    "sales": 16857,
+                    "cost": 34650,
+                    "mpg": 20,
+                    "category": "Infiniti QX50",
+                    "id_category": "165"
+                },
+                {
+                    "sales": 57640,
+                    "cost": 40900,
+                    "mpg": 22,
+                    "category": "Audi Q5",
+                    "id_category": "166"
+                },
+                {
+                    "sales": 48643,
+                    "cost": 39150,
+                    "mpg": 20,
+                    "category": "Mercedes-Benz GLC-class",
+                    "id_category": "167"
+                },
+                {
+                    "sales": 22516,
+                    "cost": 40950,
+                    "mpg": 22,
+                    "category": "Volvo XC60",
+                    "id_category": "168"
+                },
+                {
+                    "sales": 3240,
+                    "cost": 44000,
+                    "mpg": 28,
+                    "category": "Audi A4 Allroad",
+                    "id_category": "169"
+                },
+                {
+                    "sales": 5198,
+                    "cost": 45550,
+                    "mpg": 27,
+                    "category": "BMW X4",
+                    "id_category": "170"
+                },
+                {
+                    "sales": 59341,
+                    "cost": 35285,
+                    "mpg": 31,
+                    "category": "Lexus NX",
+                    "id_category": "171"
+                },
+                {
+                    "sales": 27048,
+                    "cost": 32880,
+                    "mpg": 23,
+                    "category": "Lincoln MKC",
+                    "id_category": "172"
+                },
+                {
+                    "sales": 21429,
+                    "cost": 47500,
+                    "mpg": 20,
+                    "category": "Porsche Macan",
+                    "id_category": "173"
+                },
+                {
+                    "sales": 18946,
+                    "cost": 41990,
+                    "mpg": 21,
+                    "category": "Jaguar F-Pace",
+                    "id_category": "174"
+                }
+            ]
+        },
+        {
+            "sales": 467932,
+            "cost": 1061385,
+            "mpg": 269,
+            "category": "large",
+            "id_category": "127",
+            "categories": [
+                {
+                    "sales": 16869,
+                    "cost": 85650,
+                    "mpg": 20,
+                    "category": "Range Rover",
+                    "id_category": "128"
+                },
+                {
+                    "sales": 6004,
+                    "cost": 89880,
+                    "mpg": 15,
+                    "category": "Lexus LX",
+                    "id_category": "129"
+                },
+                {
+                    "sales": 10523,
+                    "cost": 63515,
+                    "mpg": 17,
+                    "category": "Lincoln Navigator",
+                    "id_category": "130"
+                },
+                {
+                    "sales": 22994,
+                    "cost": 73395,
+                    "mpg": 17,
+                    "category": "Cadillac Escalade",
+                    "id_category": "131"
+                },
+                {
+                    "sales": 4188,
+                    "cost": 122400,
+                    "mpg": 13,
+                    "category": "Mercedes-Benz G-class",
+                    "id_category": "132"
+                },
+                {
+                    "sales": 14700,
+                    "cost": 76395,
+                    "mpg": 18,
+                    "category": "Cadillac Escalade ESV",
+                    "id_category": "133"
+                },
+                {
+                    "sales": 17881,
+                    "cost": 63850,
+                    "mpg": 16,
+                    "category": "Infiniti QX80",
+                    "id_category": "134"
+                },
+                {
+                    "sales": 32248,
+                    "cost": 67050,
+                    "mpg": 17,
+                    "category": "Mercedes-Benz GLS-class",
+                    "id_category": "135"
+                },
+                {
+                    "sales": 3100,
+                    "cost": 84775,
+                    "mpg": 15,
+                    "category": "Toyota Land Cruiser",
+                    "id_category": "143"
+                },
+                {
+                    "sales": 49183,
+                    "cost": 48530,
+                    "mpg": 19,
+                    "category": "GMC Yukon",
+                    "id_category": "144"
+                },
+                {
+                    "sales": 56516,
+                    "cost": 49915,
+                    "mpg": 18,
+                    "category": "Chevrolet Suburban",
+                    "id_category": "145"
+                },
+                {
+                    "sales": 98961,
+                    "cost": 47215,
+                    "mpg": 18,
+                    "category": "Chevrolet Tahoe",
+                    "id_category": "146"
+                },
+                {
+                    "sales": 35059,
+                    "cost": 51230,
+                    "mpg": 18,
+                    "category": "GMC Yukon XL",
+                    "id_category": "147"
+                },
+                {
+                    "sales": 51883,
+                    "cost": 47125,
+                    "mpg": 18,
+                    "category": "Ford Expedition",
+                    "id_category": "148"
+                },
+                {
+                    "sales": 12156,
+                    "cost": 45560,
+                    "mpg": 15,
+                    "category": "Toyota Sequoia",
+                    "id_category": "149"
+                },
+                {
+                    "sales": 35667,
+                    "cost": 44900,
+                    "mpg": 15,
+                    "category": "Nissan Armada",
+                    "id_category": "150"
+                }
+            ]
+        },
+        {
+            "sales": 457884,
+            "cost": 186240,
+            "mpg": 252,
+            "category": "subcompact",
+            "id_category": "191",
+            "categories": [
+                {
+                    "sales": 10157,
+                    "cost": 20250,
+                    "mpg": 28,
+                    "category": "Nissan Juke",
+                    "id_category": "192"
+                },
+                {
+                    "sales": 88035,
+                    "cost": 22990,
+                    "mpg": 29,
+                    "category": "Buick Encore",
+                    "id_category": "193"
+                },
+                {
+                    "sales": 79289,
+                    "cost": 21000,
+                    "mpg": 28,
+                    "category": "Chevrolet Trax",
+                    "id_category": "194"
+                },
+                {
+                    "sales": 7665,
+                    "cost": 19995,
+                    "mpg": 27,
+                    "category": "Fiat 500X",
+                    "id_category": "195"
+                },
+                {
+                    "sales": 94034,
+                    "cost": 19465,
+                    "mpg": 29,
+                    "category": "Honda HR-V",
+                    "id_category": "196"
+                },
+                {
+                    "sales": 103434,
+                    "cost": 19325,
+                    "mpg": 26,
+                    "category": "Jeep Renegade",
+                    "id_category": "197"
+                },
+                {
+                    "sales": 16355,
+                    "cost": 19960,
+                    "mpg": 30,
+                    "category": "Mazda CX-3",
+                    "id_category": "198"
+                },
+                {
+                    "sales": 25755,
+                    "cost": 23460,
+                    "mpg": 29,
+                    "category": "Toyota C-HR",
+                    "id_category": "199"
+                },
+                {
+                    "sales": 33160,
+                    "cost": 19795,
+                    "mpg": 26,
+                    "category": "Mitsubishi Outlander Sport",
+                    "id_category": "200"
+                }
+            ]
+        }
+    ]
+},{
+    "sales": 484618,
+    "cost": "218490",
+    "mpg": 172,
+    "category": "minivan",
+    "id_category": "151",
+    "categories": [
+        {
+            "sales": 484618,
+            "cost": 218490,
+            "mpg": 172,
+            "category": "midsized",
+            "id_category": "152",
+            "categories": [
+                {
+                    "sales": 118274,
+                    "cost": 28995,
+                    "mpg": 22,
+                    "category": "Chrysler Pacifica",
+                    "id_category": "153"
+                },
+                {
+                    "sales": 577,
+                    "cost": 27100,
+                    "mpg": 20,
+                    "category": "Chrysler Town & Country",
+                    "id_category": "154"
+                },
+                {
+                    "sales": 125196,
+                    "cost": 25995,
+                    "mpg": 20,
+                    "category": "Dodge Grand Caravan",
+                    "id_category": "155"
+                },
+                {
+                    "sales": 100307,
+                    "cost": 29850,
+                    "mpg": 22,
+                    "category": "Honda Odyssey",
+                    "id_category": "156"
+                },
+                {
+                    "sales": 23815,
+                    "cost": 26900,
+                    "mpg": 21,
+                    "category": "Kia Sedona",
+                    "id_category": "157"
+                },
+                {
+                    "sales": 10,
+                    "cost": 22400,
+                    "mpg": 24,
+                    "category": "Mazda Mazda5",
+                    "id_category": "158"
+                },
+                {
+                    "sales": 4950,
+                    "cost": 27500,
+                    "mpg": 22,
+                    "category": "Nissan Quest",
+                    "id_category": "159"
+                },
+                {
+                    "sales": 111489,
+                    "cost": 29750,
+                    "mpg": 21,
+                    "category": "Toyota Sienna",
+                    "id_category": "160"
+                }
+            ]
+        }
+    ]
+}
+]
