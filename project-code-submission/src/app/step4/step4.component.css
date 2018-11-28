@@ -1,0 +1,27 @@
+.text{
+	color: black;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+  }
+
+.jumbotron{
+	background-color:none !important;
+	background-color: #FFFFFF;
+	
+	}
+
+	h4 {
+		text-align: center;
+		color: #ffffff;
+		background-color:rgb(48, 45, 45);
+		padding: 5px;
+		}
+		
+		.titleh4 {
+		background-color:#000;
+		}
+			
+		
