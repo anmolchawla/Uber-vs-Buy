@@ -16,6 +16,7 @@ var car_name;
 var mpg;
 var years;
 var car_cost;
+var car_image;
 
 @Component({
     selector: 'app-step3',
@@ -175,12 +176,27 @@ $(document).ready(function(){
     $("#btn").click(function(){
         $.each(myjson, function(key,value) {
             if (carText == value.name){
-
+                $("#create").html("");
                 service_cost = value.service;
                 car_name = value.name;
                 mpg = value.mpg;
                 car_cost = value.msrp;
-                $('#create').append("<img src='assets/clipart845083.png' width='50%'>");
+                // $('#create').append("<img src='assets/clipart845083.png' width='50%'>");
+ 
+
+                $.ajax({
+                    type:"GET",
+                    dataType:"json",
+                    url:("https://www.googleapis.com/customsearch/v1?key=AIzaSyB8XoP2HpzUSaEZC6fkibA0fTuV0yovSDE&cx=004681799767857783899%3Adi_kmxt-q4i&q="+car_name+"&imgSize=large&num=1&searchType=image"),
+                    success: function(data){
+                                            console.log("api call",data.items[0].link);
+                                            
+                                            var img = document.createElement("img");
+                                            img.src = data.items[0].link;;
+                                            var src = document.getElementById("create");
+                                            src.appendChild(img);
+                    }
+                });
                 $('#create').append("<div id= 'awesomeChoice'> The " + value.name + " is an awesome choice!</div>")
                 $('#create').append("<div id='mpg'><b>Miles Per Gallon</b>: " + value.mpg + "</div>");
                 $('#create').append("<div id='msrp'><b>Manufacturers Suggested Retail Price</b>: $" + value.msrp + "</div>");

@@ -75,7 +75,9 @@ export class Step4Component implements OnInit {
 address(data){
   var sepa = data.split(" ");
   var ad = "https://maps.googleapis.com/maps/api/geocode/json?address=";
-  var key = "&key=AIzaSyCERbZhScuNlJUrxPxsZfTqxWfSnYCzJZ0";
+  // var key = "&key=AIzaSyCERbZhScuNlJUrxPxsZfTqxWfSnYCzJZ0";
+  var key = "&key=AIzaSyB9NRRuy7LQkDiWXk7I3YWEX4b99L-oUVw";
+ 
 
   for (var i= 0; i<sepa.length;i++){
  //   console.log(sepa[i]);
@@ -112,8 +114,8 @@ var end_add = this.model.end;
 // console.log("step 1");
  //var start = this.address(start_add);
  //var end = this.address(end_add);
-var start='https://maps.googleapis.com/maps/api/geocode/json?address=600+South+Ikea+Way+Burbank,+CA+91502&key=AIzaSyCERbZhScuNlJUrxPxsZfTqxWfSnYCzJZ0';
-var end  ='https://maps.googleapis.com/maps/api/geocode/json?address=465+S+La+Cienega+Blvd+Los+Angeles,+CA+90048&key=AIzaSyCERbZhScuNlJUrxPxsZfTqxWfSnYCzJZ0'; 
+var start='https://maps.googleapis.com/maps/api/geocode/json?address=600+South+Ikea+Way+Burbank,+CA+91502&key=AIzaSyB9NRRuy7LQkDiWXk7I3YWEX4b99L-oUVw';
+var end  ='https://maps.googleapis.com/maps/api/geocode/json?address=465+S+La+Cienega+Blvd+Los+Angeles,+CA+90048&key=AIzaSyB9NRRuy7LQkDiWXk7I3YWEX4b99L-oUVw'; 
 
 // console.log(start);
 // console.log(end);
