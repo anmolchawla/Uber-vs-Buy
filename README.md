@@ -116,5 +116,7 @@ Team Members: Anmol Chawla (anmolcha@usc.edu), David Goodfellown(dgoodfel@usc.ed
 - We will meet every week on Mondays. We will go for at least a 4 hour time period and break up work for the remaining week.
 - Thank you!
 
+#### HOSTING INSTRUCTIONS
 
+      ng build --prod --base-href "/~*add link path here*
 
