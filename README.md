@@ -1,6 +1,4 @@
-# BUY VS. UBER: # ##### A visual decision tool based on analysis of today's vehicle market ####
-
-
+# BUY VS. UBER: A visual decision tool based on analysis of today's vehicle market ####
 
 ## Table of Content
   - Project Summary
@@ -13,6 +11,22 @@
   - Step 4:
   - Step 5:
   - Conclusion
+
+## PROJECT SUMMARY
+
+### PROJECT INFORMATION
+
+- Project title: Buy Versus Uber: A Visual Decision Tool Based on Analysis of Today's Vehicle Market
+- Group name: Hattrick
+- Team names: [ Anmol Chawla (anmolcha@usc.edu Chukwudubem Nwoji (nwoji@usc.edu) David Goodfellow (dgoodfel@usc.edu) ]
+
+### PROJECT ARTIFACTS
+
+- [Demonstration URL](<demo-url>)
+- [Presentation PDF](<presentation-pdf-url>) and [transcript](<presentation-transcript-md-url>)
+- [Article](<article-pdf-url>) and [Overleaf URL](<overleaf-article-url>)
+- [YouTube video](<youtube-video-url>)
+
 
 ## To Run Sozi.html
 
