@@ -6,11 +6,13 @@ A visual decision tool based on analysis of today's vehicle market
   - Project Information
   - Project Artifacts
   - Provenance
+  - Design Considerations
   - Step 1: 
   - Step 2:
   - Step 3:
   - Step 4:
   - Step 5:
+  - Development Stack
   - Challenges
   - Conclusion
 
@@ -51,11 +53,36 @@ We have collated data from multiple sources to give the user a comprehensive vis
 - The Uber prices were sourced via the [Uber API](https://developer.uber.com/)
 - The electric charging stations in US data was sourced from [www.afdc.energy.gov](https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC)
 
+
+### DESIGN CONSIDERATIONS
+- Responsive
+- Interactive
+- Color Scheme
+- Layout - centering
+- Animated transitions
+
+- We need to be especially conscious of how we break up our information. We have two separate data components: the automobile market information and the uber ride data. We want to make sure they don't cause the user to be confused in the interface. We would like them to be able to use the app intuitively. 
+- To do this we need keep them fairly isolated from one another in the presentation to the user
+- For the uber design, we want to make sure the model is explanable. This means that we have the breakdowns listed on the side and keep the visualizations familiar.
+
 ### STEP-1: MARKET ANALYSIS
 ### STEP-2:
 ### STEP-3:
 ### STEP-4:
 ### STEP-5:
+### DEVELOPMENT STACK
+- D3
+- Angular
+- Bootstrap
+- JavaScript
+- Jquery
+- Python for pre-processing
+- Google API
+- Uber API
+- Node
+- HTML & CSS
+### CHALLENGES FACED
+### CONCLUSION
 
 
 To Run Sozi.html
