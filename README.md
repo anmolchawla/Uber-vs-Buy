@@ -21,13 +21,12 @@ With **Buy vs. Uber**, we seek to help the user make the decision between commit
 
   - Segment: Car, Minivan, SUV, Truck
   - Size: Compact, Large, Mini, Midsized, Subcompact
-  - Brand: Toyota, Honda, Chevrolet, Mercedes Benz, BMW etc
+  - Brand: Toyota, Honda, Chevrolet, Mercedes Benz, BMW etc.
   - Model: Camry, MDX, Focus, Malibu etc.
-  
-  **NOTE**: We have a dedicated page for electric vehicles (EV), as the metric for these type of vehicles differ from gas-powered vehicles.
   
 Armed with this information, and an Uber API estimate of the average cost per week based on user ride input, a clear conclusion can be drawn.
   
+**NOTE**: We have a dedicated page for electric vehicles (EV), as the metric for these type of vehicles differ from gas-powered vehicles.  
 **NOTE**: For simplicity, we assume a five-day work-week structure i.e. 10 Uber rides per week and have implemented our calculations based on this assumption.
   
 
@@ -35,7 +34,7 @@ Armed with this information, and an Uber API estimate of the average cost per we
 
 - Project title: Buy Versus Uber: A Visual Decision Tool Based on Analysis of Today's Vehicle Market
 - Group name: Hat Trick
-- Team names: [ Anmol Chawla ] (anmolcha@usc.edu) [Chukwudubem Nwoji] (nwoji@usc.edu) [David Goodfellow] (dgoodfel@usc.edu)
+- Team names: [ Anmol Chawla ](anmolcha@usc.edu) [Chukwudubem Nwoji](nwoji@usc.edu) [David Goodfellow](dgoodfel@usc.edu)
 
 ### PROJECT ARTIFACTS
 
@@ -45,7 +44,21 @@ Armed with this information, and an Uber API estimate of the average cost per we
 - [YouTube video](<youtube-video-url>)
 
 
-## To Run Sozi.html
+### PROVENANCE
+We have collated data from multiple sources to give the user a comprehensive visual experience. 
+- Our car sales data is sourced from [carsalesbase.com](http://carsalesbase.com/). This provides monthly information for sales for car brands, car types, and by model.
+- Our fuel efficiency data is sourced from [fueleconomy.gov](https://www.fueleconomy.gov/). This gives us the miles per gallon of each vehicle.
+- The Uber prices were sourced via the [Uber API](https://developer.uber.com/)
+- The electric charging stations in US data was sourced from [www.afdc.energy.gov](https://afdc.energy.gov/fuels/electricity_locations.html#/find/nearest?fuel=ELEC)
+
+### STEP-1: MARKET ANALYSIS
+### STEP-2:
+### STEP-3:
+### STEP-4:
+### STEP-5:
+
+
+To Run Sozi.html
 
 1. Clone the repository
 2. Ensure you are running node.js by downloading it and moving it to your working directory. https://nodejs.org/en/download/
