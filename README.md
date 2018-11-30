@@ -25,7 +25,7 @@
 
 - [Demonstration URL](<demo-url>)
 - [Presentation PDF](<presentation-pdf-url>) and [transcript](<presentation-transcript-md-url>)
-- [Article](<article-pdf-url>) and [Overleaf URL](<overleaf-article-url>)
+- [Article](https://github.com/INF554Fall18/project-hat-trick/blob/master/Docs/Buy_Versus_Uber_A_visual_decision_tool_By_HatTrick.pdf) and [Overleaf URL](https://www.overleaf.com/8291586897msqjkjbhgrns?fbclid=IwAR0Vv_5a83W1EpsFUeiETvAIDJ_44_CzpB68Qw_Wb4LElLudb2p-UykxqHc)
 - [YouTube video](<youtube-video-url>)
 
 
