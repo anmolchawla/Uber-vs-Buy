@@ -10,6 +10,7 @@
   - Step 3:
   - Step 4:
   - Step 5:
+  - Challenges
   - Conclusion
 
 ## PROJECT SUMMARY
@@ -18,7 +19,7 @@
 
 - Project title: Buy Versus Uber: A Visual Decision Tool Based on Analysis of Today's Vehicle Market
 - Group name: Hattrick
-- Team names: [ Anmol Chawla (anmolcha@usc.edu Chukwudubem Nwoji (nwoji@usc.edu) David Goodfellow (dgoodfel@usc.edu) ]
+- Team names: [ Anmol Chawla ] (anmolcha@usc.edu) [Chukwudubem Nwoji] (nwoji@usc.edu) [David Goodfellow] (dgoodfel@usc.edu)
 
 ### PROJECT ARTIFACTS
 
