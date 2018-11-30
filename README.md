@@ -1,4 +1,5 @@
-# BUY VS. UBER: <br /> A visual decision tool based on analysis of today's vehicle market
+# Buy vs. Uber:
+A visual decision tool based on analysis of today's vehicle market
 
 ## Table of Content
   - Project Summary
@@ -14,11 +15,11 @@
   - Conclusion
 
 ## PROJECT SUMMARY
-
+Since the rise of ridesharing services as a viable means of urban transport, there has been a steady increase in annual revenue for th industry - a direct statement of its impact. According to [statista] (https://www.statista.com/outlook/368/109/ride-hailing/united-states), it is expected to show an annual growth rate of 11.0%, resulting in a market volume of US$26,315m by 2023. This leaves the question of whether owning a car is as essential as it used to be.
 ### PROJECT INFORMATION
 
 - Project title: Buy Versus Uber: A Visual Decision Tool Based on Analysis of Today's Vehicle Market
-- Group name: Hattrick
+- Group name: Hat Trick
 - Team names: [ Anmol Chawla ] (anmolcha@usc.edu) [Chukwudubem Nwoji] (nwoji@usc.edu) [David Goodfellow] (dgoodfel@usc.edu)
 
 ### PROJECT ARTIFACTS
