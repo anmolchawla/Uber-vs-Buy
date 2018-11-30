@@ -1,11 +1,17 @@
 # BUY VS. UBER
-#### A visual decision tool based on analysis of today's vehicle market
+### A visual decision tool based on analysis of today's vehicle market
 
-## Team Info
-
-Team Name: Hattrick
-
-Team Members: Anmol Chawla (anmolcha@usc.edu), David Goodfellown(dgoodfel@usc.edu), Chukwudubem Nwoji (nwoji@usc.edu)
+## Table of Content
+  - Project Summary
+  - Project Information
+  - Project Artifacts
+  - Provenance
+  - Step 1: 
+  - Step 2:
+  - Step 3:
+  - Step 4:
+  - Step 5:
+  - Conclusion
 
 ## To Run Sozi.html
 
