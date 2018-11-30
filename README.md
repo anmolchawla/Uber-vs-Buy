@@ -1,5 +1,4 @@
-# BUY VS. UBER #
-## A visual decision tool based on analysis of today's vehicle market ##
+# BUY VS. UBER: # ##### A visual decision tool based on analysis of today's vehicle market ####
 
 
 
