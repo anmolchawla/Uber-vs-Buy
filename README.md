@@ -15,7 +15,7 @@ A visual decision tool based on analysis of today's vehicle market
   - Conclusion
 
 ## PROJECT SUMMARY
-Since the rise of ridesharing services as a viable means of urban transport, there has been a steady increase in annual revenue in the industry - a direct statement of its impact. According to [statista] (https://www.statista.com/outlook/368/109/ride-hailing/united-states), the ridesharing industry is expected to show an annual growth rate of 11.0%, resulting in a market volume of US$26,315m by 2023. This leaves the question of whether owning a car is as essential as it used to be. With **Buy vs. Uber**, we seek to help the user make the decision between committing to a car for a stimupulated period of time versus using a ride sharing service i.e. Uber. We help the user through easy to understand, yet insightful visualizations of the car market based on groups such as:
+Since the rise of ridesharing services as a viable means of urban transport, there has been a steady increase in annual revenue in the industry - a direct statement of its impact. According to [statista](https://www.statista.com/outlook/368/109/ride-hailing/united-states), the ridesharing industry is expected to show an annual growth rate of 11.0%, resulting in a market volume of US$26,315m by 2023. This leaves the question of whether owning a car is as essential as it used to be. With **Buy vs. Uber**, we seek to help the user make the decision between committing to a car for a stimupulated period of time versus using a ride sharing service i.e. Uber. We help the user through easy to understand, yet insightful visualizations of the car market based on groups such as:
 
   - Segment: Car, Minivan, SUV, Truck
   - Size: Compact, Large, Mini, Midsized, Subcompact
