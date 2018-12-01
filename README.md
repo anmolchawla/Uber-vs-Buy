@@ -96,7 +96,7 @@ Our ultimate design goal was to have the website be intuitive to new users. This
  We encountered a number of challenges in this project:
  1. Data required extensive preprocessing to be functionally useful. We used python for preprocessing data.
  2. Uber API not working. Resolved by using different API key.
- 4. Step-4 not displaying when hosted on scf. Migrated to Google Firebase.
+ 4. Step-4 not displaying when hosted on scf. Migrated to Google Firebase as Uber api has a hard restriction on scf server. 
  3. Angular setup error. Fixed it by troubleshooting one component at a time.
  5. Step-5 not producing results. Solved by recomputing metrics.
  6. Layout not aligned properly. Solved by Bootstrap layout and CSS.
@@ -107,3 +107,13 @@ To run repository locally, use code:
         npm install * --save
         ng build
         
+To host on firebase the following steps were followed.
+1. Create a firebase account and then npm installed firebase cli on the local host. 
+2. Run the normal angular prod command to create the dist files. 
+3. Setup firebase hosting service configurations. 
+
+        commands. Firebase login
+        firebase init
+        firebase --add
+        firebase hosting
+        firebase deploy </path to dist folder> 
