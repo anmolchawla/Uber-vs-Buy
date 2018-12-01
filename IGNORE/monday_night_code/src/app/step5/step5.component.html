@@ -1,0 +1,25 @@
+<h2>{{ title }}</h2>
+<br>
+<br>
+<h1>Number of Years</h1>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="20" [(ngModel)]="model.value" (click)="input_yr();" class="slider" id="myRange">
+  <p>Value:<span id="demo"></span></p>
+</div>
+
+
+<h1>Miles per Week</h1>
+<div class="slidecontainer">
+    <input type="range" min="0" max="500" [(ngModel)]="model.value1" (click)="input_week();" class="slider" id="myRange">
+    <p>Value:<span id="demo1"></span></p>
+  </div>
+  
+<p><b>Based on your previous selection of :</b></p>
+<p>Car Name: <span id="name_car"></span></p>
+<p>Uber: <span id="name_uber"></span></p>
+<p>It is recomended that you go for: <span id="winner_name"></span></p>
+<p>As an Uber for selected duration will cost you: <span id="uber_money"></span> and owning a car will cost you: <span id="car_money"></span></p>
+
+
+<svg width="2000px" height="700px" id="chart-pg5" transform="translate(30,0)"></svg>

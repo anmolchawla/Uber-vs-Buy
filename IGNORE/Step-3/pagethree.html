@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
+
+    </head>
+
+    <body>
+        <div class="form-group row">
+            <div class="col-xs-2">
+                <label for="ex1">How long do you intend to own car:</label>
+                <input class="form-control" id="ex1" type="number" min="1" max="15">
+            </div>
+        </div>    
+
+        <div>
+            <label>Select Vehicle Segment</label>
+            <div class="checkbox">
+                <label><input type="checkbox" name = "vehicleSegment" value="car">Car</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name = "vehicleSegment" value="minivan">Minivan</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name = "vehicleSegment" value="suv">SUV</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name = "vehicleSegment" value="truck">Truck</label>
+            </div>        
+        </div> 
+
+        <div>
+            <label>Select Vehicle Size</label>
+            <div class="checkbox">
+                <label><input type="checkbox" name = "vehicleSize" value="compact">Compact</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name = "vehicleSize" value="large">Large</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name = "vehicleSize" value="midsized">Midsized</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name = "vehicleSize" value="mini">Mini</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name = "vehicleSize" value="subcompact">Subcompact</label>
+            </div>          
+        </div> 
+
+        <form>
+            <Label>Select Car Model</Label>
+            <fieldset id="autoHeight">
+                <select id="car-dropdown" name="locality"> <!-- class="selectpicker" placeholder="" data-live-search="false"> -->
+                        <!-- <option type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></option> -->
+                    <option value="None" selected="Selected">--- Select ---</option> -->
+                </select>
+            </fieldset>
+        </form>
+        
+        <br/>
+        <button type="submit" id="btn" class="btn btn-primary">Continue</button>
+        <br/><br/><br/>
+        <div id="create" style="display:none"></div>
+                
+
+
+        <script src="pagethree.js"></script>
+
+    </body>
+</html>

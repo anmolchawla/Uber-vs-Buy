@@ -1,0 +1,65 @@
+<html>
+    <h4 class="titleh4">{{ title }}</h4>
+<body>
+         
+
+        <h4>Company Market Shares</h4>
+        <div class="center-align">
+        <div>This chart shows the market shares for each car company in the overall car market in 2017, excluding exotic sports cars.</div> 
+        <div>Hover over a slice to view its market share and total sales.</div>
+        <div>Click on the slice to see brand models and percentage of total brand sales a model contributes.</div>
+        <p></p>
+        <div class="resetGroup1">
+            <button type="button" id="resetpieButton">Back</button>
+        </div>
+        
+        <br/>
+        <br/>
+        <svg width="700px" height="700px" id="chart2" transform="translate(30,0)"></svg>
+        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h4>Automobile Sales Over Time</h4>
+        <div>This chart allows you to analyze the trends in car sales from 1973 until 2017.</div>
+        <div>To drill down into the car segments, click on a line. To view the sales of the segment in a certain year, hover over the dot.</div>
+        <div>The hierarchy of the data goes from car segment >> car size >> car model.</div>
+        <p></p>
+        <div id= "line_chart">
+            <button id="backButton">Back</button>
+        </div>
+        <svg id="chart" width="1000" height="700"></svg>
+        <br/>
+        <br/>
+        <br/>
+
+        <h4>Drill down Bar Chart</h4>
+        <div>This bar chart allows you to compare the sales, miles per gallon (mpg), and price of the automobile market in 2017.</div>
+        <div>The chart is also drill down - car segment >> car size >> car model </div>
+        <div>For the miles per gallon and price, the values shown are averaged for the cars in the respective category where sales is aggregated.</div>
+        <div>For the miles per gallon for electric cars, the value is defaulted to zero unless it is an electric and gas car in which the gas mileage is shown.</div>
+        <p></p>
+        <div class="reorderGroup">
+            <p><b>Reorder Data: </b></p>
+            <button type="button" id="alphaButton">Alphabetically</button>
+            <button type="button" id="ascButton">Ascending</button>
+            <button type="button" id="descButton">Descending</button>
+        </div>
+        <div class="filterGroup">
+            <p><b>Filter Data: </b></p>
+            <button type="button" id="salesButton">Sales</button>
+            <button type="button" id="mpgButton">MPG</button>
+            <button type="button" id="priceButton">Price</button>
+        </div>
+        <div class="resetGroup">
+                <button type="button" id="resetButton">Back</button>
+        </div>
+        <svg width="1150px" height="1420px" id="chart1" transform="translate(30,0)"></svg>   
+    </div>
+
+
+
+
+</body>
+</html>
