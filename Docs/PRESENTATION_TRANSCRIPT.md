@@ -1,4 +1,5 @@
-### 1. The core idea behind the project is to help a user decide between buying a car or taking an uber for his commuitng needs. 
+### 1. Cover page
+The core idea behind the project is to help a user decide between buying a car or taking an uber for his commuitng needs. 
 ### 2. Audience
   - The first audience are those who are debating whether to buy a car but are unsure about what kind of car to buy, or if to buy anyone at all considering Uber/Lyft. 
   - Our second audience are those just generally interested in the automobile market trends. 
