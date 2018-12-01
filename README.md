@@ -55,7 +55,7 @@ We have collated data from multiple sources to give the user a comprehensive vis
 
 
 ### DESIGN CONSIDERATIONS
-Our ultimate design goal was to have the website be intuitive to new users. This is why we decided to lay out the webpage in efive(5) simple left aligned tabs. This creates the flow for the application. 
+Our ultimate design goal was to have the website be intuitive to new users. This is why we decided to lay out the webpage in five(5) simple left aligned tabs. This creates the flow for the application. 
 
   - Color schemes are carefully selected to provide every user an equal experience regardless of eye condition.
   - We have centered all visualization to optimize visual query and have left out any distracting background activity that can cause distraction.
