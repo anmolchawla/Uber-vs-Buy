@@ -43,7 +43,7 @@ Armed with this information, and an Uber API estimate of the average cost per we
 - [Demonstration URL](https://inf554-d9e3c.firebaseapp.com/step5)
 - [Presentation PDF](<presentation-pdf-url>) and [transcript](<presentation-transcript-md-url>)
 - [Article](https://github.com/INF554Fall18/project-hat-trick/blob/master/Docs/Buy_Versus_Uber_A_visual_decision_tool_By_HatTrick.pdf) and [Overleaf URL](https://www.overleaf.com/8291586897msqjkjbhgrns?fbclid=IwAR0Vv_5a83W1EpsFUeiETvAIDJ_44_CzpB68Qw_Wb4LElLudb2p-UykxqHc)
-- [YouTube video](<youtube-video-url>)
+- [YouTube video](https://www.youtube.com/watch?v=3JZ4T1PWwQE)
 
 
 ### PROVENANCE
