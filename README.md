@@ -79,7 +79,7 @@ Our ultimate design goal was to have the website be intuitive to new users. This
   - Uber Options vs. Average Cost - Interactive bar chart used to store selection for step-5 computation
   
 ### STEP-5: UBER VS. BUY
-  - Summary - 
+  - Summary
 ### DEVELOPMENT STACK
 - D3
 - Angular
